@@ -1,1 +1,19 @@
 
+# Viewing Functions Through Linear Algebra
+
+A large portion of this course uses vectors to describe the quantum states that exist within a system. 
+
+In quantum chemistry, it was established that a wavefunction is a complete discription of a particle's properties. This may include, but
+is not limited to, the momentum, position, and kinetic energy of a particle within a system. Another vital component discussed was the 
+operator, which describes the observable property of a particle (i.e. momentum, position, angular momemtun, spin, etc.). For every 
+observable exists an operator which extracts the needed information from the particle's wavefunction. 
+
+These principles can be applied to the Schrodinger equation:(_____) where the possible measurement results in a set of eigenvalues.
+For every eigenvalue obtained, there must also exist a definitively defined state. 
+
+inserting images/graphs? 
+
+
+
+
+
