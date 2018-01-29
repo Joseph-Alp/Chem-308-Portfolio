@@ -8,12 +8,9 @@ is not limited to, the momentum, position, and kinetic energy of a particle with
 operator, which describes the observable property of a particle (i.e. momentum, position, angular momemtun, spin, etc.). For every 
 observable exists an operator which extracts the needed information from the particle's wavefunction. 
 
-These principles can be applied to the Schrodinger equation:(_____) where the possible measurement results in a set of eigenvalues.
+These principles can be applied to the Schrodinger equation: Hψ(x)=Eψ(x) where the possible measurement results in a set of eigenvalues.
+There, the HH is the Hamiltonian operator.
 For every eigenvalue obtained, there must also exist a definitively defined state. 
 
-
-
-
-
-
-
+The equation that describes quantum mechanics of particles in well defined energy states can be determined by the time independent 
+Schrödinger Equation, Ψ(x)Ψ(x).
