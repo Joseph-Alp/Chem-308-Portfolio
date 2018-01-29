@@ -33,13 +33,12 @@ V=diag(Vvec);
 H=T+V; % Hamiltonian (H) matrix %potential and kinetic energy matrices
 [vecs,vals]=eig(H); % finds eigenvectors and eigenvalues (vals is matrix form of eigenvalues)
 [srtvecs,srtvals]=eigsort(vecs,vals); %arranges eigenvalues in ascending order
-vvals=diag(vals); % making eigenvalues into vector (same size as x=pts) (vvals is vector form of eigenvalues)
-y=ones(1,pts); % creating vector of ones
-repvals=y.*vvals; % matrix with eigenvalues in columns
-figure(1);plot(x,Vvec,x,vecs(:,1:5)); % plot of potential energy vs discretized points 
-axis([-inf inf -1 1]); % set axis bounds on figure above
-shiftvecs=repvals+vecs;
-figure(2);plot(x,Vvec,x,shiftvecs(:,1:5));
-axis([-inf inf -1 1]);
-
+v=diag(srtvals); % vector of sorted eigenvalues
+k=[1:1:pts]; % row vector of evenly spaced numbers with number of pts defined
+n=ones(pts,1) % column vector of 1s
+repvals=0.25*n*k;
+shiftvecs=srtvecs+repvals; % eigenvectors shifted based on the repvals' matrix
+figure(1);plot(x,shiftvecs(:,1:5),x,Vvec); % plot potential well and eigenvectors (1-5)
+axis([-inf inf -.5 2]); % adjusts axes to be able to see eigenvectors
 end
+
