@@ -12,5 +12,5 @@ Week 1: KE Matrix For PIB Example
 Week 2: Probing PIB Eigenvalues 
 
 Week 3
-  a) Part 1: Continuation of Week 2; finalized form for investigating PIB
-  b) Part 2: Special Code needed to run Part 1
+  -Part 1: Continuation of Week 2; finalized form for investigating PIB
+  -Part 2: Special Code needed to run Part 1
