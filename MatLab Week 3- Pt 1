@@ -37,7 +37,7 @@ v=diag(srtvals); % vector of sorted eigenvalues
 k=[1:1:pts]; % row vector of evenly spaced numbers with number of pts defined
 n=ones(pts,1); % column vector of 1s
 repvals=0.25*n*k;
-shiftvecs=srtvecs+repvals; % eigenvectors shifted based on the repvals' matrix
+shiftvecs=srtvecs+repvals; % eigenvectors shifted based on the repval matrix
 figure(1);plot(x,shiftvecs(:,1:8),x,Vvec); % plot potential well and eigenvectors (1-8)
 axis([-inf inf -.25 2.5]); % custom axes to view eigenvectors
 
