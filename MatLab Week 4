@@ -1,6 +1,5 @@
 Updated Format For PIB 
 
-
 function PIB( n ) % n is the number of eigenvalues
 
 % Defining Constants
@@ -11,7 +10,7 @@ pts=100; % number of discritized points (for second derivative)
 w=3; % number of points in barrier
 barht=1E6; % bar height on potential matrix in our system
 x=linspace(0,l,pts); % discretized all space
-dx=x(2)-x(1); 
+dx=x(2)-x(1); %dx definition
 c=-(hbar.^2)./(2.*m); % constants in kinetic energy; note periods apply to elements only
 
 % Defining second derivative matrix for kinetic energy
