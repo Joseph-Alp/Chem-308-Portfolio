@@ -35,10 +35,19 @@ H=T+V; % Hamiltonian (H) matrix %potential and kinetic energy matrices
 [srtvecs,srtvals]=eigsort(vecs,vals); %arranges eigenvalues in ascending order
 v=diag(srtvals); % vector of sorted eigenvalues
 k=[1:1:pts]; % row vector of evenly spaced numbers with number of pts defined
-n=ones(pts,1) % column vector of 1s
+n=ones(pts,1); % column vector of 1s
 repvals=0.25*n*k;
 shiftvecs=srtvecs+repvals; % eigenvectors shifted based on the repvals' matrix
-figure(1);plot(x,shiftvecs(:,1:5),x,Vvec); % plot potential well and eigenvectors (1-5)
-axis([-inf inf -.5 2]); % adjusts axes to be able to see eigenvectors
+figure(1);plot(x,shiftvecs(:,1:8),x,Vvec); % plot potential well and eigenvectors (1-8)
+axis([-inf inf -.25 2.5]); % custom axes to view eigenvectors
+
 end
 
+% Ascending Code From Week 3, Part 2
+function [ srtvecs,srtvals ] = eigsort( vecs,vals )
+d=diag(vals);
+[dsort,ord]=sort(d);
+srtvecs=vecs(:,ord);
+srtvals=diag(dsort);
+
+end
