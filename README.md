@@ -7,9 +7,9 @@ Table of Contents
 
 MatLab Work
 
-Week 1: KE for PIB Example
+Week 1: KE Matrix For PIB Example
 
-Week 2: Probing PIB eigenvalues 
+Week 2: Probing PIB Eigenvalues 
 
 Week 3
   a) Part 1: Continuation of Week 2; finalized form for investigating PIB
