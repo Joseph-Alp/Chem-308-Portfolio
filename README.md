@@ -5,7 +5,6 @@ Table of Contents
 
 1. Vectors & Quantum State Descriptors 
 
-
 MatLab Work
 
 Week 1: KE for PIB Example
@@ -13,5 +12,5 @@ Week 1: KE for PIB Example
 Week 2: Probing PIB eigenvalues 
 
 Week 3
-  %a) Part 1: Continuation of Week 2; finalized form for investigating PIB
-  %b) Part 2: Special Code needed to run Part 1
+  a) Part 1: Continuation of Week 2; finalized form for investigating PIB
+  b) Part 2: Special Code needed to run Part 1
