@@ -18,3 +18,5 @@ MatLab Work
 1. [Week 3](/MatLab-Week-3-Pt-II.md) Part 2: Special Code needed to run Part 1
   
 1. [Week 4](/MatLab-Week-4.md) Finalizing PIB Code
+
+2. Time Indpeendent Schrodinger Equation
