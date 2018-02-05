@@ -1,3 +1,5 @@
+# [Week 3](/MatLab-Week-3-Pt-II.md)
+
 The following piece of code enables us to sort through the eigenvectors and eigenvalues in an ascending order. 
 
 Content is based on notes taken on 1/25/18, and PIB handout.
