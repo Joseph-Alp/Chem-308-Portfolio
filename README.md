@@ -19,5 +19,4 @@ MatLab Work
   
 1. [Week 4](/MatLab-Week-4.md) Finalizing PIB Code
 
-
-2. Time Independent Schrodinger Equation
+#. Time Independent Schrodinger Equation
