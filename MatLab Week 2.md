@@ -1,4 +1,5 @@
 # [Week 2](/MatLab-Week-2.md)
+(For a table of contents, visit the [home page](/README.md))
 
 The goal of this project was to continue getting comfortable with using vectors and matricies to describe quantum systems. The system
 being probed is a PIB. 
