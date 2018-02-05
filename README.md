@@ -17,5 +17,4 @@ MatLab Work
 1. [Week 3](/MatLab-Week-3-Pt-1.md) Part 1: Continuation of Week 2; finalized form for investigating PIB
 1. [Week 3](/MatLab-Week-3-Pt-II.md) Part 2: Special Code needed to run Part 1
   
-1. [Week 4](/MatLab-Week-4.md) 
-  i. Finalizing PIB Code
+1. [Week 4](/MatLab-Week-4.md) Finalizing PIB Code
