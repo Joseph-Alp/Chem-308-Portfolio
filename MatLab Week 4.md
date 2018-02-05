@@ -1,3 +1,5 @@
+# [Week 4](/MatLab-Week-4.md)
+
 Updated, Finalized Format For PIB 
 
 function PIB( n ) % n is the number of eigenvalues
