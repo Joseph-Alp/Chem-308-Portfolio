@@ -1,3 +1,5 @@
+# [Week 3](/MatLab-Week-3-Pt-1.md)
+
 Below is a continuation of the work from week 2, involving the PIB system.
 
 function PIB( n ) % n is the number of eigenvalues
