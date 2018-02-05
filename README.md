@@ -11,12 +11,11 @@ MatLab Work
 
 1. [Week 1](/MatLab-Week-1.md)
 
-KE Matrix For PIB Example
+1. [Week 2](/MatLab-Week-2.md)
+  KE Matrix For PIB Example 
 
-Week 2: Probing PIB Eigenvalues 
-
-Week 3:
-  a) Part 1: Continuation of Week 2; finalized form for investigating PIB
-  b) Part 2: Special Code needed to run Part 1
+1. [Week 3](/MatLab-Week-3-Pt-1.md) Part 1: Continuation of Week 2; finalized form for investigating PIB
+1. [Week 3](/MatLab-Week-3-Pt-II.md) Part 2: Special Code needed to run Part 1
   
-  Week 4: Finalizing PIB Code
+1. [Week 4](/MatLab-Week-4.md) 
+  i. Finalizing PIB Code
