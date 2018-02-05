@@ -1,4 +1,4 @@
-
+{% include mathjax.html %}
 
 Kinetic Energy within a PIB
 
