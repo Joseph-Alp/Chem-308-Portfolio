@@ -1,3 +1,5 @@
+# [Week 2](/MatLab-Week-2.md)
+
 The goal of this project was to continue getting comfortable with using vectors and matricies to describe quantum systems. The system
 being probed is a PIB. 
 The following criteria must be established in order to visualize the eigenvalues for a PIB function:
