@@ -1,4 +1,5 @@
 # [Week 3](/MatLab-Week-3-Pt-1.md)
+(For a table of contents, visit the [home page](/README.md))
 
 Below is a continuation of the work from week 2, involving the PIB system.
 
