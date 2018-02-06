@@ -9,7 +9,7 @@ This portfolio is a collection of physical chemistry projects completed througho
 
 MatLab Work
 
-1. [Week 1](/PIB1.md)
+1. [Week 1](/MatLab-Week-1.md)
 
 1. [Week 2](/MatLab-Week-2.md)
   KE Matrix For PIB Example 
