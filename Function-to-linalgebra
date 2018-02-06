@@ -14,3 +14,8 @@ For every eigenvalue obtained, there must also exist a definitively defined stat
 
 The equation that describes quantum mechanics of particles in well defined energy states can be determined by the time independent 
 Schrödinger Equation, Ψ(x)Ψ(x).
+
+The time dependent Schrödinger describes all physically realizable states, 
+and is defined by the equation: \begin{equation}\label{tdse} \mathcal{H}\Psi(x,t) = E\Psi(x,t) \end{equation} 
+where $$\mathcal{H}$$ is the Hamiltonian operator formed 
+by the sum of the potential and kinetic energy operators, and $$\Psi(x,t)$$ is a time- and space-dependent wavefunction.
