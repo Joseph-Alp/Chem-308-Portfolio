@@ -1,8 +1,6 @@
 {% include mathjax.html %}
 (For a table of contents, visit the [home page](/README.md))
 
-## [Week 1](/MatLab-Week-1.md)
-
 Kinetic Energy within a PIB
 
 function [R,L,D] = kinetic(n,dx) % n = the size of matrix; dx = the change in x
