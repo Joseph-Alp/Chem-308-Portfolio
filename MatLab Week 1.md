@@ -1,7 +1,7 @@
 {% include mathjax.html %}
 (For a table of contents, visit the [home page](/README.md))
 
-#[Week 1](/MatLab-Week-1.md)
+## [Week 1](/MatLab-Week-1.md)
 
 Kinetic Energy within a PIB
 
