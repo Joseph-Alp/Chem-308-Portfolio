@@ -1,6 +1,5 @@
 {% include mathjax.html %}
 
-(For a table of contents, visit the [home page](/README.md))
 
 Kinetic Energy within a PIB
 
