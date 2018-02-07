@@ -7,6 +7,7 @@ This portfolio is a collection of physical chemistry projects completed througho
 ### Table of Contents
 
 1. Vectors & Quantum State Descriptors 
+1. Working With Time Independent Schrodinger Equations For Well Defined Eigenstates
 
 MatLab Work
 
@@ -19,4 +20,6 @@ MatLab Work
   
 1. [Week 4](MatLab-Week-4.md) Finalizing PIB Code
 
-# Time Independent Schrodinger Equation
+# Time Independent Schrodinger Equation (TISE)
+
+1. [Week 5](MatLab-Week-5.md) PIB TISE
