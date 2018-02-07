@@ -1,5 +1,5 @@
-# [Week 3](/MatLab-Week-3-Pt-II.md)
-(For a table of contents, visit the [home page](/README.md))
+[home](/README.md)
+
 
 The following piece of code enables us to sort through the eigenvectors and eigenvalues in an ascending order. 
 
