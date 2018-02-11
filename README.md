@@ -11,7 +11,7 @@ This portfolio is a collection of physical chemistry projects completed througho
 
 MatLab Work
 
-1. [MLW1](/MLW1.md) Investigating properties of PIB
+1. [Investigating the Properties of PIB](/MLW1.md) Investigating properties of PIB
 
 1. [MLW2](/MLW2.md) KE Matrix For PIB  
 
