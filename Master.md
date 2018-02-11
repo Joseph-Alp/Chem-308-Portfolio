@@ -1,4 +1,3 @@
-{% include mathjax.html %}
 
 
 # Viewing Functions Through Linear Algebra
