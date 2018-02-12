@@ -11,9 +11,9 @@ This portfolio is a collection of physical chemistry projects completed througho
 
 MatLab Work
 
-1. [Investigating the Properties of PIB](/MLW1.md) Investigating properties of PIB
+1. [Investigating the Properties of PIB](/MLW1.md) (Week 1)
 
-1. [MLW2](/MLW2.md) KE Matrix For PIB  
+1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
 
 1. [MatLab Week 3 Part 1](/MatLab-Week-3-Pt-1.md) Part 1: Continuation of Week 2; finalized form for investigating PIB
 1. [MatLab Week 3 Part 2](/MatLab-Week-3-Pt-2.md) Part 2: Special Code needed to run Part 1
