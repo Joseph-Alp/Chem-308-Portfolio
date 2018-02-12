@@ -16,7 +16,7 @@ MatLab Work
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
 
 1. [Continuation of Week 2: Finalized Investigation of PIB](/MLW3a.md) Part 1: 
-1. [MatLab Week 3 Part 2](/MatLab-Week-3-Pt-2.md) Part 2: Special Code needed to run Part 1
+1. [Special Code Needed To Run Part a](/MLW3b.md) 
   
 1. [MatLab Week 4](/MatLab-Week-4.md) Finalizing PIB Code
 
