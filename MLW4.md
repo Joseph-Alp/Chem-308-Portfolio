@@ -1,4 +1,3 @@
-# [Week 4](/MatLab-Week-4.md)
 (For a table of contents, visit the [home page](/README.md))
 
 Updated, Finalized Format For PIB 
