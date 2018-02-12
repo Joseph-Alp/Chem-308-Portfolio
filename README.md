@@ -15,10 +15,10 @@ MatLab Work
 
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
 
-1. [Continuation of Week 2: Finalized Investigation of PIB](/MLW3a.md) Part 1: 
-1. [Special Code Needed To Run Part a](/MLW3b.md) 
+1. [Continuation of Week 2: Investigations of PIB](/MLW3a.md) (Week 3)
+1. [Special Code Needed To Run Part a](/MLW3b.md) (Week 3)
   
-1. [MatLab Week 4](/MatLab-Week-4.md) Finalizing PIB Code
+1. [Finalized PIB Code](/MLW4.md) (Week 4)
 
 # Time Independent Schrodinger Equation (TISE)
 
