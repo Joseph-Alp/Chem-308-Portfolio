@@ -4,7 +4,7 @@
 # Chem-308-Portfolio
 This portfolio is a collection of physical chemistry projects completed throughout Chem 308. Through a combination of programing on GitHub and MatLab, a heavy emphasis on probing topics in quantum chemistry via linear algebra is explored. 
 
-This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate the their inqueries. For all information pertaining to the background information of quantum mechanical principles, please see the [Master](/Master.md)
+This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate the their inqueries. For all information pertaining to the background information of quantum mechanical principles, please see the [Master](/Master.md).
 
 ### Table of Contents
 
