@@ -22,4 +22,4 @@ MatLab Work
 
 # Time Independent Schrodinger Equation (TISE)
 
-1. [MatLab Week 5](/MatLab-Week-5.md) PIB TISE
+1. [Creating A PIB In Accordance To The TISE](/MLW5.md) (Week 5)
