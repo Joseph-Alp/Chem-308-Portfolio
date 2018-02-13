@@ -49,9 +49,9 @@ for k=1:50
     expX=dot(nrpsiXt,nrpsiXt)/2;
     figure(1)
     subplot(2,2,1)
-    KLW_plot3(x,psiXt)
+    JA_plot3(x,psiXt)
     subplot(2,2,2)
-    KLW_plot3(diag(srtvals),psiEt)
+    JA_plot3(diag(srtvals),psiEt)
     subplot(2,2,[3,4])
     plot(x,snrpsiXt(:,1)) % the probability density
     %plot(x,snrpsiXt(:,1),x,expX)  
@@ -70,7 +70,7 @@ srtvals=diag(dsort);
 
 end
 
-function KLW_plot3(basisaxis,psi);
+function JA_plot3(basisaxis,psi);
 %% Plot complex valued vectors as 3D plots. The complex plane forms the
 %% backdrop for the plot and the eigenvalue axis
 %% projects out from plane.
@@ -96,4 +96,3 @@ function KLW_plot3(basisaxis,psi);
         pbaspect([3,1,1])   % fix aspect ratio of 3D plot
         view([70,10])       % define the view angle
 grid on             % turn on the grid
-end 
