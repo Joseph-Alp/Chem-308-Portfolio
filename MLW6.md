@@ -2,14 +2,13 @@
 
 
 ### Refining the TDSE PIB 
-1. The TDSE for the PIB with a linear commbination of the first two values
-
+1. The TDSE for the PIB with a linear commbination of the first two state values
 
 
 function TDSEa(n)
 hbar=1;
-m=1; % mass of electron
-l=1; % length of box 0.5 nm (written in meters)
+m=1; % mass of electron (switched from SI)
+l=1; % switched from %5 nm 5E-11
 pts=300; % number of discretized points
 
 %discretize space
@@ -20,27 +19,27 @@ dx=x(2)-x(1);
 barht=1E6; %bar height on potential matrix
 w=3; % number of points within infinite wall
 
-c=-(hbar.^2)/(2.*m); % constant in kinetic energy operator
+c=-(hbar.^2)/(2.*m); % kinetic energy operator constant 
 D=(1/((dx)^2)).*(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1)); % second derivative matrix
-T=c.*D;
+T=c.*D;  %See 1/25 notebook for notation details for reference
 
-Vvec=zeros(pts,1);
+Vvec=zeros(pts,1); %see notes from 1/23/18 for corresponding image
 Vvec([1:w,(end-(w-1)):end])=barht;
 V=diag(Vvec);
 
-H=T+V;
+H=T+V; %Hamiltonian
 
 [vecs,vals]=eig(H); % determining eigenvectors and eigenvalues
 [srtvecs,srtvals]=eigsort(vecs,vals); % sorting eigenvalues in ascending order
 
-EtoX=srtvecs; % change from energy basis to position basis
-XtoE=inv(srtvecs); % change from position basis to energy basis
+EtoX=srtvecs; % changes energy basis to position basis
+XtoE=inv(srtvecs); % changes position basis to energy basis
 
 psiE=zeros(pts,1); % vector of all zeros
-psiE([1 2])=1; % change position 1,2 in vector to 1
+psiE([1 2])=1; % change position 1,2 in vector to 1 (first two elements)
 psiX=EtoX*psiE;
 
-%How to shift on displayng graph
+%How to shift on display graph
 % sc=100; 
 % srtvecs=sc*srtvecs;
 % v=diag(srtvals); % vector of sorted eigenvalues
@@ -52,18 +51,16 @@ psiX=EtoX*psiE;
     %New Content
 t=0; dt=0.1;
 for k=1:100
-    psiEt=psiE.*exp(-i*v*t/hbar);
-    psiEt=psiEt./norm(psiEt); % normalize vector of psiE (dependent on time)
-
+    psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
+    %npsiEt=psiEt/norm(psiEt); % normalize vector of psiE that's dependent on time
     psiXt=EtoX*psiEt;
-    psiXt=psiXt./norm(psiXt); % normalize vector of psiX (dependent on time)
-    expv=real(psiXt' * (x.*psiXt));  %Expectation Value
-    
-%     rpsiEt=psiE.*(diag(srtvals)*t/hbar); % real psiEt
-%     rpsiXt=EtoX*rpsiEt; % real psiXt
-%     rpsiXt=rpsiXt./norm(rpsiXt); % normalized and real psiXt used for the probability density
-
-%        expX=dot(rpsiXt,rpsiXt)/2;
+    psiXt=psiXt/norm(psiXt); % normalize vector of psiX that's dependent on time
+    rpsiXt=abs(psiXt).^2;
+    expE=real(psiEt'*(x.*psiEt));
+    %v=diag(srtvals);
+    repvals=(ones(pts,1))*expE;
+    snrpsiXt=rpsiXt+repvals; % shifted psiXt by energy
+    expX=real(psiXt'*(x.*psiXt)); % the expectation value
     
     figure(1)
         subplot(2,2,1)
@@ -75,9 +72,8 @@ for k=1:100
         subplot(2,2,[3,4])
         plot(x,abs(psiXt).^2) % the probability density
         axis([-inf inf 0 5E-2])
-        plot(v,snrps; xt)(:,1).expX,'r.*';  %expectation value indicator
-        %plot(x,snrpsiXt(:,1),x,expX)  
-        %axis([-inf inf 0 .1])
+        plot(x,snrpsiXt(:,1),expX,expE,'g *')  %expectation value indicator (green)
+       
         drawnow
     
     t=t+dt;
@@ -85,7 +81,7 @@ end
 
 end
 
-function [ srtvecs,srtvals ] = eigsort( vecs,vals ) % acending order eigenvectors and eigenvalues
+function [ srtvecs,srtvals ] = eigsort( vecs,vals ) %eigenvectors and eigenvalues in ascending order
 d=diag(vals);
 [dsort,ord]=sort(d);
 srtvecs=vecs(:,ord);
@@ -120,5 +116,4 @@ function JA_plot3(basisaxis,psi);
         view([70,10])       % define the view angle
 grid on             % turn on the grid
 end 
-
 
