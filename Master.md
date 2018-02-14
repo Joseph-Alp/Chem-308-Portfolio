@@ -60,4 +60,4 @@ These plots include:
 1. The wave function in the energy basis over time in both real and imaginary axes
 1. The probability density of position in the real axis, while observing the expectation value and average energy
 
-![](MatLab.png)
+![](MatLab.fig)
