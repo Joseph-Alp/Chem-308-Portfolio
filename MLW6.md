@@ -4,7 +4,7 @@
 ### Refining the TDSE PIB 
 1. The TDSE for the PIB with a linear commbination of the first two values
 
-'''
+
 
 function TDSEa(n)
 hbar=1;
@@ -121,4 +121,4 @@ function JA_plot3(basisaxis,psi);
 grid on             % turn on the grid
 end 
 
-'''
+
