@@ -1,6 +1,6 @@
 
 
-# Viewing Functions Through Linear Algebra
+# Viewing Quantum Functions Through Linear Algebra
 
 A large portion of this course uses vectors to describe the quantum states that exist within a system. 
 
