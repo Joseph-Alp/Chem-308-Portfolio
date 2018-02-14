@@ -21,11 +21,19 @@ and is defined by the equation: \begin{equation}\label{tdse} \mathcal{H}\Psi(x,t
 where $$\mathcal{H}$$ is the Hamiltonian operator formed 
 by the sum of the potential and kinetic energy operators, and $$\Psi(x,t)$$ is a time- and space-dependent wavefunction.
 
+
 # The Particle In The Box
 
 The Particle in a Box (PIB) describes some particle of mass, m that is confined between two walls at x = 0 and x = L: 
-the potential energy is zero inside the box but rises abruptly to infinity at the "walls" or boundaries. 
+the potential energy is zero inside the box but rises abruptly to infinity at the "walls" or boundaries. This ensures that the 
+observed particle *must* exist somewhere within the set boundaries.
 This model is an idealization of the potential energy of a gas-phase molecule that is free to move in a one-dimensional container. 
+
+# Observable States Of Particle
+
+The operator used for a PIB system determines the physical state of the particle. For instance, operating with the kinetic energy 
+operator will generate information of the particle's KE at different states of energy. Furthermore, the average kinertic energy could be 
+calculated by finding the expectation value, or simply the average, based on the possible states the particle may exist. 
 
 
 # The Time Independent Schrödinger Equation (TISE)
