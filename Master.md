@@ -45,3 +45,8 @@ In order to solve for the TDSE, we must serarate the variables of space (postion
 <p align="center">  $\Psi(x,t)= \psi(x) T(t) $, </p>
 where $\psi(x)$ is in the solution set for the TISE $\{ {\psi(x)}_n \}$.
 
+By investigating multiple well defined states, we are able to utilize MatLab to generate plots of wavefunctions that reflect the [TDSE](/MLW6.md) for a PIB.
+These plots include: 1. The wave function in the position basis over time in both real and imaginary axes
+                     1. The wave function in the energy basis over time in both real and imaginary axes
+                     1. The probability density of position in the real axis, while observing the expectation value and average energy
+
