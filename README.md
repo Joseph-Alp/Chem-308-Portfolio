@@ -24,6 +24,6 @@ MatLab Work
 1. [Finalized PIB Code](/MLW4.md) (Week 4)
 
 # Time Independent Schrodinger Equation (TISE)
-  Background Information Provided at [TISE](/TISE.md)
+  Background information provided at [TISE](/TISE.md) for all time independent Schrodinger equation problems.
 1. [Creating A PIB In Accordance To The TISE](/MLW5.md) (Week 5)
 1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
