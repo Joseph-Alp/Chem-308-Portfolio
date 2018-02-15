@@ -21,6 +21,23 @@ and is defined by the equation: \begin{equation}\label{tdse} \mathcal{H}\Psi(x,t
 where $$\mathcal{H}$$ is the Hamiltonian operator formed 
 by the sum of the potential and kinetic energy operators, and $$\Psi(x,t)$$ is a time- and space-dependent wavefunction.
 
+# Observable Operators 
+
+Observables take real values only. Therefore we must require that the operators that represent observables have only real eigenvalues, due to the fact that we want to identify the eigenvalues with the possible results of measurements. This can only be guaranteed if we only use Hermitean operators to represent observables. As a result, we must adhere to the main principles of Hermetian operators:
+1. Hermitean operators have real eigenvalues. Since the eigenvalue equation is:
+Oˆψk(x) = Okψk(x) k = 1,... .
+
+ψk(x) are called eigenfunctions of Oˆ, Ok are the eigenvalues. Then we have:
+
+Oˆ = Oˆ† =⇒ Ok ∈ R
+
+2. The eigenfunctions of a Hermitean operator that belong to different eigenvalues are
+orthogonal.
+
+3. If Oˆ is a Hermitean operator acting on a vector space V, there exists an orthogonal basis
+of V made of eigenvectors of Oˆ. In other words, every function ψ(x) can be expanded
+as: ψ(x) = 'k ckψk(x),
+
 
 # The Particle In The Box
 
