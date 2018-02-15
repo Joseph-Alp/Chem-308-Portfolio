@@ -1,3 +1,4 @@
+{% include mathjax.html %} 
 
 
 # Viewing Quantum Functions Through Linear Algebra
