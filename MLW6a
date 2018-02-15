@@ -1,3 +1,6 @@
+## Update
+
+This code continues off of week 5, but incorporates the expectation value for position for the first two states.
 
 
 function TDSEa(n)
@@ -26,32 +29,32 @@ H=T+V; %Hamiltonian
 
 [vecs,vals]=eig(H); % determining eigenvectors and eigenvalues
 [srtvecs,srtvals]=eigsort(vecs,vals); % sorting eigenvalues in ascending order
+size(srtvals);
 
 EtoX=srtvecs; % changes energy basis to position basis
 XtoE=inv(srtvecs); % changes position basis to energy basis
 
-%psiE=zeros(pts,1); % vector of all zeros
-%psiE([1 2])=1; % change position 1,2 in vector to 1 (first two elements)
-%psiX=EtoX*psiE;
+psiE=zeros(pts,1); % vector of all zeros
+psiE([1 2])=1; % change position 1,2 in vector to 1 (first two elements)
+psiX=EtoX*psiE;
 
-%How to shift on display graph
+%How to shift the displayed graph
 % sc=100; 
 % srtvecs=sc*srtvecs;
 % v=diag(srtvals); % vector of sorted eigenvalues
 % repvals=(ones(pts,1))*v';
 % shiftvecs=srtvecs+repvals;
-    v=diag(srtvals);
-    repvals=(ones(pts,1))*v';
+    %v=diag(srtvals);
+    %repvals=(ones(pts,1))*v';
     
-   psiXt=exp((x-.02).^2); %gaussian psi x
    
     %New Content
 t=0; dt=0.1;
-for k=1:100 
-    %psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
-    %npsiEt=psiEt/norm(psiEt); % normalize vector of psiE that's dependent on time
+for k=1:50 
+    psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
+    psiEt=psiEt/norm(psiEt); % normalize vector of psiE that's dependent on time
     psiE = inv(vecs)*psiX;
-    %psiXt=EtoX*psiEt;
+    psiXt=EtoX*psiEt;
     psiXt=psiXt/norm(psiXt); % normalize vector of psiX that's dependent on time
     rpsiXt=abs(psiXt).^2;
     expE=real(psiEt'*(x.*psiEt)); 
@@ -68,8 +71,9 @@ for k=1:100
         JA_plot3(diag(srtvals),psiEt)
         
         subplot(2,2,[3,4])
-        plot(x,abs(psiXt).^2) % the probability density
+        %plot(x,abs(psiXt).^2) % the probability density
         axis([-inf inf 0 5E-2])
+        text(0.2, expE+0.013,['E= ' num2str(expE)])
         plot(x,snrpsiXt(:,1),expX,expE,'g *')  %expectation value indicator (green)
        
         drawnow
