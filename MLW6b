@@ -80,7 +80,7 @@ for k=1:100
         axis([-inf inf 0 5E-2])
         text(0.2, expE+0.013,['E= ' num2str(expE)])
         plot(x,snrpsiXt(:,1),expX,expE,'g *')  %expectation value indicator (green)
-       
+        text(0.2,expE+0.013,['E= ' num2str(expE)]) %text for expectation value
         drawnow
     
     t=t+dt;
