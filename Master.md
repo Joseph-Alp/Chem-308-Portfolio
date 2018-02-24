@@ -25,6 +25,12 @@ by the sum of the potential and kinetic energy operators, and $$\Psi(x,t)$$ is a
 In viewing this, we can understand quantum states and being made up of other, possible states. As a result, we can utilize MatLab
 to show that the states of a quantum system can be representedvia vectors in a complex vector space whch was first demonstrated 
 during [Week 1](/MLW1.md) of this course. This concept was taken a step further by looking at [three dimentional space](/MLW4.md) (x,y,z) as a basis set for vectors in a PIB.
+
+Thus, several assumptions must be made inorder to interchange bases when taking the inner product:
+* Bullet list Wave functions and other quantum states can be represented as vectors in complex  space
+* Bullet list Quantum superpositions can be described as vector sums of their constituent states
+* Bullet list Measurements are associated with their linear operators (observables) on the space of quantum states
+* Bullet list We normalize our wave functions in order to ensure a 100% possibility of determining the properties of our particle  
  
 
 # Observable Operators 
