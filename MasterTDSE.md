@@ -1,6 +1,8 @@
-# The Time Independent Schrödinger Equation (TISE)
+{% include mathjax.html %}
 
-Unlike the TDSE, the time independent Schrodinger only depends on space and is indepdent of all time. To understand the properties
+# The Time Dependent Schrödinger Equation (TDSE)
+
+Unlike the TISE, the time dependent Schrodinger only depends on space and is indepdent of all time. To understand the properties
 of any real quantum system we have to calculate the spacial and time dependent variables. This means that we have to find the 
 complete wavefunction $\Psi(x,t)$.
 The equation that describes the particles in a well defined energy state(s) or stationary state(s) can be deduced by the
