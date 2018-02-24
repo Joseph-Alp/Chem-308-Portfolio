@@ -28,3 +28,6 @@ MatLab Work
   We are also able to investigate multiple defined states: 
 1. [Creating A PIB In Accordance To The TDSE](/MLW5.md) (Week 5)
 1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
+1. [Calculating The First Two Expectation Values for TDSE PIB] (Week 7)
+1. [Gaussian bump curve....
+1. [Modifying range explored from week 7...
