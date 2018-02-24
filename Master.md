@@ -46,7 +46,8 @@ of V made of eigenvectors
 The Particle in a Box (PIB) describes some particle of mass, m that is confined between two walls at x = 0 and x = L: 
 the potential energy is zero inside the box but rises abruptly to infinity at the "walls" or boundaries. This ensures that the 
 observed particle *must* exist somewhere within the set boundaries.
-This model is an idealization of the potential energy of a gas-phase molecule that is free to move in a one-dimensional container. 
+This model is an idealization of the potential energy of a gas-phase molecule that is free to move in a one-dimensional container.
+*We see this model probed and explored from week 1 - week 4 of the MatLab chapters.
 
 # Observable States Of Particle
 
