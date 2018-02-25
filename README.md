@@ -10,7 +10,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 
 1. Vectors & Quantum State Descriptors 
 1. The Particle In a Box Paradigm (PIB)
-1. Working With Time Independent Schrodinger Equations For Well Defined Eigenstates
+1. Working With Time Dependent Schrodinger Equations For Well Defined Eigenstates
 
 MatLab Work
 
