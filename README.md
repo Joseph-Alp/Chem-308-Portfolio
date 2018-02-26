@@ -9,16 +9,16 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 ### Table of Contents
 
 1. Vectors & Quantum State Descriptors 
-1. The Particle In a Box Paradigm (PIB)
-1. Working With Time Independent Schrodinger Equations For Well Defined Eigenstates
+1. The Particle In a Box Paradigm (PIB) & the Time Independent Schrodinger Equation
+1. Observable Properties
 
 MatLab Work
 
 1. [Investigating the Properties of PIB](/MLW1.md) (Week 1)
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
-1. [Continuation of Week 2: Investigations of PIB](/MLW3a.md) (Week 3)
-1. [Special Code Needed To Run Part a](/MLW3b.md) (Week 3)
-1. [Finalized PIB Code](/MLW4.md) (Week 4)
+1. [Investigating the PIB via TISE](/MLW3a.md) (Week 3)
+  1.  [Special Code Needed To Run Part a](/MLW3b.md) (Week 3)
+1. [Finalized TISE, PIB Code](/MLW4.md) (Week 4)
 
 # Time Dependent Schrodinger Equation (TDSE)
   Background information provided for all time [dependent Schrodinger equation](/MasterTDSE.md) problems. 
