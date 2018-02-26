@@ -12,7 +12,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. The Particle In a Box Paradigm (PIB) & the Time Independent Schrodinger Equation
 1. Observable Properties
 
-*MatLab Work
+*MatLab Work*
 
 1. [Investigating the Properties of PIB](/MLW1.md) (Week 1)
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
