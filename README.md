@@ -15,12 +15,9 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 MatLab Work
 
 1. [Investigating the Properties of PIB](/MLW1.md) (Week 1)
-
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
-
 1. [Continuation of Week 2: Investigations of PIB](/MLW3a.md) (Week 3)
 1. [Special Code Needed To Run Part a](/MLW3b.md) (Week 3)
-  
 1. [Finalized PIB Code](/MLW4.md) (Week 4)
 
 # Time Dependent Schrodinger Equation (TDSE)
