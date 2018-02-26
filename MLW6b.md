@@ -1,8 +1,4 @@
-## Update
-
-~~~Gaussian bump code~~~~
-
-
+## Gaussian Update
 
 function TDSE(n)
 %Gaussian Bump Code
