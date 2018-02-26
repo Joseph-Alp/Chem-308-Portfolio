@@ -12,7 +12,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. The Particle In a Box Paradigm (PIB) & the Time Independent Schrodinger Equation
 1. Observable Properties
 
-MatLab Work
+*MatLab Work
 
 1. [Investigating the Properties of PIB](/MLW1.md) (Week 1)
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
@@ -22,7 +22,7 @@ MatLab Work
 
 # Time Dependent Schrodinger Equation (TDSE)
   Background information provided for all time [dependent Schrodinger equation](/MasterTDSE.md) problems. 
-  We are also able to investigate multiple defined states: 
+  We are also able to investigate multiple defined states in MatLab: 
 1. [Creating A PIB In Accordance To The TDSE](/MLW5.md) (Week 5)
 1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
 1. [Calculating The First Two Expectation Values for TDSE PIB](/MLW6a.md) (Week 7) 
