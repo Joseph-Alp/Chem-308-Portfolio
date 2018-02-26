@@ -29,4 +29,4 @@ These plots include:
 
 # Further Exploration 
 
-(Week 7 explanations....)
+Gaussian functions are often used to represent the probability density function of a normally distributed random variable. In our situation, we are able to observe the expectation value of energy in our TDSE PIB in [MatLab](/MLW6b.md).    
