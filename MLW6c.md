@@ -1,4 +1,4 @@
-##Update
+# Update
 
 This code is the same as in MLW6a; however, with the added goal of modifying the range of states explored.
 
