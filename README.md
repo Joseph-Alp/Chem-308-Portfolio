@@ -17,7 +17,7 @@ MatLab Work
 1. [Investigating the Properties of PIB](/MLW1.md) (Week 1)
 1. [Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
 1. [Investigating the PIB via TISE](/MLW3a.md) (Week 3)
-  1.  [Special Code Needed To Run Part a](/MLW3b.md)
+    1.  [Special Code Needed To Run Part a](/MLW3b.md)
 1. [Finalized TISE, PIB Code](/MLW4.md) (Week 4)
 
 # Time Dependent Schrodinger Equation (TDSE)
