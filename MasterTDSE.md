@@ -29,4 +29,4 @@ These plots include:
 
 # Further Exploration 
 
-Gaussian functions are often used to represent the probability density function of a normally distributed random variable. In our situation, we are able to observe the expectation value of energy in our TDSE PIB in [MatLab](/MLW6b.md).    
+Gaussian functions are often used to represent the probability density function of a normally distributed random variable. In our situation, we are able to observe the expectation value of energy in our TDSE PIB in [MatLab](/MLW6b.md). Here, we observe what should be expected: the expectation value plataus around the barriers where we see the effect of tunneling for our wave function.     
