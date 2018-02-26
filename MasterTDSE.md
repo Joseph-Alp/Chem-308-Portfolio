@@ -29,7 +29,4 @@ These plots include:
 
 # Further Exploration 
 
-Gaussian functions are often used to represent the probability density function of a normally distributed random variable. In our situation, we are able to observe the expectation value of energy in our TDSE PIB in [MatLab](/MLW6b.md). Here, we observe what should be expected: the expectation value plataus around the barriers where we see the effect of tunneling for our wave function.     
-
-
-By choosing to write the wavefunctions in equations \ref{tdse} and \ref{tise} as a function of position (and time) we are adopting the position basis for our description. This implies the Hamiltonian operator should be expressed in the position basis as well; the kinetic energy operator is expressed with the familiar second space derivative, and the potential energy operator is simply the potential energy written as a function of position.
+Gaussian functions are often used to represent the probability density function of a normally distributed random variable. In our situation, we are able to observe the expectation value of energy in our TDSE PIB in [MatLab](/MLW6b.md). Here, we observe what should be expected: the expectation value plataus around the barriers where we see the effect of tunneling for our wave function. By choosing to write the wavefunctions as a function of time and position, we are adopting the position basis for our description. This implies that the Hamiltonian operator should be expressed in the position basis as well; the kinetic energy operator is expressed with the familiar second derivative, and the potential energy operator is the potential energy written as a function of position (since energy is a scalar quantitity).
