@@ -26,5 +26,5 @@ MatLab Work
 1. [Creating A PIB In Accordance To The TDSE](/MLW5.md) (Week 5)
 1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
 1. [Calculating The First Two Expectation Values for TDSE PIB](/MLW6a.md) (Week 7)
-  * [Further modifying range of states explored](/MLW6c.md)
+   ii. [Further modifying range of states explored](/MLW6c.md)
 1. [Gaussian bump curve....
