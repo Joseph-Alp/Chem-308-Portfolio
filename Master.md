@@ -61,3 +61,8 @@ For our purposes, we focused a single particle in a one dimentional box of width
 The operator used for a PIB system determines the physical state of the particle. For instance, operating with the kinetic energy 
 operator will generate information of the particle's KE at different states of energy. Furthermore, the average kinertic energy could be 
 calculated by finding the expectation value, or simply the average, based on the possible states the particle may exist. 
+
+# Changing Basis Sets 
+
+Knowing how to convert a vector to a different basis has many practical applications throughout this course. A more indepth 
+approach to changing bases can be found [here](/Bases.md).
