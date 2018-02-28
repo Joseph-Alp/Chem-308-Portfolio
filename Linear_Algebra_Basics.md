@@ -1,3 +1,6 @@
+{% include mathjax.html %}
+
+
 ### Quantum Mechanics Rooted In Linear Algebra
 
 In order to fully utilize the capabilities of MatLab, we must refresh our understanding of linear algebra within the framework of quantum
