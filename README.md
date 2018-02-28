@@ -8,7 +8,7 @@ As MatLab requires a strong foundation in linear algebra and complex numbers, pl
 
 This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate the their inqueries. For all information pertaining to the background of quantum mechanical principles throughout Week 1 - Week 4, please see the [Master](/Master.md) with the following *table of contents*:
 
-## Table of Contents
+# Table of Contents
 
 1. Vectors & Quantum State Descriptors 
 1. The Particle In a Box Paradigm (PIB) & the Time Independent Schrodinger Equation
