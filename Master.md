@@ -4,6 +4,8 @@
 # Viewing Quantum Functions Through Linear Algebra
 
 A large portion of this course uses vectors to describe the quantum states that exist within a system. 
+In order to do continue with discussions about the TISE and TDSE, a background refresher in complex numbers may be necessary,
+which can be found [here](/Complex_numbers.md).
 
 In quantum chemistry, it was established that a wavefunction is a complete discription of a particle's properties. This may include, but
 is not limited to, the momentum, position, and kinetic energy of a particle within a system. Another vital component discussed was the 
