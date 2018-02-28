@@ -1,14 +1,14 @@
 ## Bates College
 
 
-# Chemistry 308 Portfolio
+### Chemistry 308 Portfolio
 This portfolio is a collection of physical chemistry projects completed throughout Chemistry 308: *Topics in Physical Chemistry*. Through a combination of programing on GitHub and MatLab, a heavy emphasis on probing topics in quantum chemistry via linear algebra is explored.
 
-As MatLab requires a strong foundation in linear algebra, please refer to the [tutorial](/Linear_Algebra_Basics.md) if needed.  
+As MatLab requires a strong foundation in linear algebra and complex numbers, please refer to the [tutorial](/Linear_Algebra_Basics.md) if needed.  
 
 This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate the their inqueries. For all information pertaining to the background information of quantum mechanical principles throughout Week 1 - Week 4, please see the [Master](/Master.md) with the following *table of contents*:
 
-### Table of Contents
+## Table of Contents
 
 1. Vectors & Quantum State Descriptors 
 1. The Particle In a Box Paradigm (PIB) & the Time Independent Schrodinger Equation
