@@ -31,4 +31,6 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
     1.  [Further modifying range of states explored](/MLW6c.md) 
     2.  Gaussian functions are often used to represent the probability density function of a normally distributed variable. We can apply 
         a Gaussian bump(s) to our PIB TDSE to observe the [expectation value](/MLW6b.md) when we localize the particle to a specific region.
-1. [Perturbation Theory] (Week 8) 
+
+# Perturbation Theory (Week 8) 
+1. [Introduction to Pertubation Theory](/IntroPerturbation.md)
