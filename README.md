@@ -23,7 +23,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
  1. [Finalized TISE, PIB Code](/MLW4.md) (Week 4)
 
 # Time Dependent Schrodinger Equation (TDSE)
-  Background information provided for all time [dependent Schrodinger equation](/MasterTDSE.md) problems. 
+  Background information provided for all [time dependent Schrodinger equation](/MasterTDSE.md) inquiries for the following weeks. 
   We are also able to investigate multiple defined states in MatLab: 
 1. [Creating A PIB In Accordance To The TDSE](/MLW5.md) (Week 5)
 1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
