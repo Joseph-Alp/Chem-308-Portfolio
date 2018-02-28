@@ -5,7 +5,7 @@
 
 
 Kinetic Energy within a PIB
-
+'''
 function [R,L,D] = kinetic(n,dx) % n = the size of matrix; dx = the change in x
 
 % M = -eye(n);
@@ -25,3 +25,4 @@ L = (1/dx)*(eye(n) + diag(-1*ones(n-1,1),1)); % the left derivative matrix
 D = (R*L + L*R)/2; % second derivative
 
 end function 
+'''
