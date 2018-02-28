@@ -35,7 +35,7 @@ Gaussian functions are often used to represent the probability density function 
 After we have obtained the energy eigenfunctions in the position basis (x), we can normalize them. Consequently we are then able to use a change of basis reflected earlier in Week 5 to obtain the energy eigenvectors in energy basis (which is a scalar). Thus, we have what is necessary to plot the time evolution of these eigenstates. However, must also calculate the probability density as well as the expectation value of the position x and energy E. This code is throughly mentioned in [Week 7](/MLW6c.md), as is the switching of bases. Putting all of the this together, we are able to observe the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values. 
 
 (gaussian function image)
-
+![test](/gif.png)
 
 This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evolution of the second energy state of a PIB.
 
