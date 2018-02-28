@@ -6,7 +6,7 @@ This portfolio is a collection of physical chemistry projects completed througho
 
 As MatLab requires a strong foundation in linear algebra and complex numbers, please refer to the [tutorial](/Linear_Algebra_Basics.md) if needed.  
 
-This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate the their inqueries. For all information pertaining to the background information of quantum mechanical principles throughout Week 1 - Week 4, please see the [Master](/Master.md) with the following *table of contents*:
+This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate the their inqueries. For all information pertaining to the background of quantum mechanical principles throughout Week 1 - Week 4, please see the [Master](/Master.md) with the following *table of contents*:
 
 ## Table of Contents
 
