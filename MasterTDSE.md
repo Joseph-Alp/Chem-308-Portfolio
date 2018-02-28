@@ -32,9 +32,9 @@ These plots include:
 Gaussian functions are often used to represent the probability density function of a normally distributed random variable. In our situation, we are able to observe the expectation value for a particle with a localized probability density toward the left barrier in our TDSE PIB in [MatLab](/MLW6b.md). Here, we observe what should be expected: the expectation value plataus around the barriers where we see the effect of tunneling for our wave function. By choosing to write the wavefunctions as a function of time and position, we are adopting the position basis for our description. This implies that the Hamiltonian operator should be expressed in the position basis as well; the kinetic energy operator is expressed with the familiar second derivative, and the potential energy operator is the potential energy written as a function of position (since energy is a scalar quantitity).
 
 
-After we have obtained the energy eigenfunctions in the position basis (x), we can normalize them. Consequently we are then able to use a change of basis reflected earlier in Week 5 to obtain the energy eigenvectors in energy basis (which is a scalar). Thus, we have what is necessary to plot the time evolution of these eigenstates. However, must also calculate the probability density as well as the expectation value of the position x and energy E. This code is throughly mentioned in [Week 7](/MLW6c.md), as is the switching of bases. Putting all of the this together, we are able to observe the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values. 
+After we have obtained the energy eigenfunctions in the position basis (x), we can normalize them. Consequently we are then able to use a change of basis reflected earlier in Week 5 to obtain the energy eigenvectors in energy basis (which is a scalar). Thus, we have what is necessary to plot the time evolution of these eigenstates. However, must also calculate the probability density as well as the expectation value of the position x and energy E. This code is throughly mentioned in [Week 7](/MLW6c.md), as is the switching of bases. Putting all of the this together, we are able to observe the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density (bottom graph) and expectation values (green star). Here, we focused on
+localizing the particle on the right side of the PIB, and observed its wave function:
 
-(gaussian function image)
 ![test](/gif.png)
 
 This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evolution of the second energy state of a PIB.
@@ -44,7 +44,9 @@ This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evo
 
 # Non-Stationary States
 
-Using the same code as mentioned above, we can also observe our wavefunction for a particle in a non-stationary state: 
+Using the same [code](/MLW6c.md) as mentioned above, we can also observe our wavefunction for a particle in a non-stationary state: 
+
+
 
 
 
