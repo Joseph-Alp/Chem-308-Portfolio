@@ -40,7 +40,7 @@ localizing the particle on the right side of the PIB, and observed its wave func
 This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evolution of the second energy state of a PIB.
 
 
-![Expectation value](/JALP.png)
+![Expectation value](/GIF2.gif)
 
 # Non-Stationary States
 
