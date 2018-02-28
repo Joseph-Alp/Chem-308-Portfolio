@@ -25,9 +25,9 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 # Time Dependent Schrodinger Equation (TDSE)
   Background information provided for all time dependent Schrodinger equation inquiries can be found [here](/MasterTDSE.md). 
   We are also able to investigate multiple defined states in the following MatLab code: 
-1. [Creating A PIB In Accordance To The TDSE](/MLW5.md) (Week 5)
-1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
-1. [Calculating The First Two Expectation Values for TDSE PIB](/MLW6a.md) (Week 7) 
+1. [Code For Creating A PIB In Accordance To TDSE](/MLW5.md) (Week 5)
+1. [Code For Calculating The Expectation Value For TDSE PIB](/MLW6.md) (Week 6)
+1. [Code For Calculating The First Two Expectation Values For TDSE PIB](/MLW6a.md) (Week 7) 
     1.  [Further modifying range of states explored](/MLW6c.md) 
     2.  Gaussian functions are often used to represent the probability density function of a normally distributed variable. We can apply 
         a Gaussian bump(s) to our PIB TDSE to observe the [expectation value](/MLW6b.md) when we localize the particle to a specific region.
