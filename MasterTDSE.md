@@ -47,7 +47,7 @@ This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evo
 Using the same [code](/MLW6c.md) as mentioned above, we can also observe our wavefunction for a particle in a non-stationary state
 where the expectation value is approximately 12.73 a.u.: 
 
-![nonstationary](/TDSEa.png)
+![nonstationary](/GIF3.gif)
 
 
 
