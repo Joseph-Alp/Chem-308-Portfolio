@@ -1,4 +1,4 @@
-## Bates College
+## Joseph Alp, Bates College
 
 
 ### Chemistry 308 Portfolio
