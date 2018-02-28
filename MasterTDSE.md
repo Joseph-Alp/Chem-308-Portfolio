@@ -40,7 +40,7 @@ After we have obtained the energy eigenfunctions in the position basis (x), we c
 This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evolution of the second energy state of a PIB.
 
 
-![Expectation value](/JA.jpg)
+![Expectation value](/JALP.png)
 
 # Non-Stationary States
 
