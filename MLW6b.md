@@ -1,4 +1,5 @@
 ## Gaussian Update
+[Go back to home page](/README.md)
 
 function TDSE(n)
 %Gaussian Bump Code
