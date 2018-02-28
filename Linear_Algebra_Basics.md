@@ -39,8 +39,8 @@ touch more upon these principles throughout this course.
 Throughout this course, we will utilize the inner product to calculate observables from wave functions. The inner product is 
 the product of corresponding elements and their addition, yielding a scalar quantitity. 
 
-If we allow $$\vec q = \begin{pmatrix} x\\y  \end{pmatrix}$$ and $$\vec z=\begin{pmatrix} u\\v
-\end{pmatrix}$$, then the inner product of $$\vec v$$ and $$\vec w$$ is $$\langle \vec q, \vec z \rangle =xu+yv.$$
+If we allow $$\vec q = \begin{pmatrix} x\\y  \end{pmatrix}$$ and $$\vec z=\begin{pmatrix} q\\z
+\end{pmatrix}$$, then the inner product of $$\vec q$$ and $$\vec z$$ is $$\langle \vec q, \vec z \rangle =xq+yz.$$
 
 # Normalization 
 
