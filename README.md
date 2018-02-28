@@ -24,7 +24,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 
 # Time Dependent Schrodinger Equation (TDSE)
   Background information provided for all time dependent Schrodinger equation inquiries can be found [here](/MasterTDSE.md). 
-  We are also able to investigate multiple defined states in MatLab: 
+  We are also able to investigate multiple defined states in the following MatLab code: 
 1. [Creating A PIB In Accordance To The TDSE](/MLW5.md) (Week 5)
 1. [Calculating The Expectation Value for a TDSE PIB](/MLW6.md) (Week 6)
 1. [Calculating The First Two Expectation Values for TDSE PIB](/MLW6a.md) (Week 7) 
