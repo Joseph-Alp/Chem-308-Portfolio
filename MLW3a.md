@@ -2,7 +2,7 @@
 
 
 Below is a continuation of the work from week 2, involving the PIB system.
-
+```Matlab
 function PIB( n ) % n is the number of eigenvalues
 
 % Defining Constants
@@ -54,3 +54,4 @@ srtvecs=vecs(:,ord);
 srtvals=diag(dsort);
 
 end
+```
