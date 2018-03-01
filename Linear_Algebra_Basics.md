@@ -10,9 +10,9 @@ mechanics.
 
 The mechanics behind linear algebra rests within matricies, which are constituted from rows and columns. 
 1. *Rows* are mathematically expressed as vectors of 1 x m dimension with a row of m elements:
-$$\begin{pmatrix} x_1 & x_2 & x_3 ... & x_n \end{pmatrix}$$
-1. *Columns are expressed as vectors with m x 1 dimension and contain a column with m elements: 
-$$\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n \end{pmatrix}$$
+  $$\begin{pmatrix} x_1 & x_2 & x_3 ... & x_n \end{pmatrix}$$
+1. *Columns* are expressed as vectors with m x 1 dimension and contain a column with m elements: 
+  $$\begin{pmatrix} x_1\\x_2\\ \vdots \\x_n \end{pmatrix}$$
 
 It is through rows and scalars that we will be developing the concepts of basis sets, and converting between them. 
 
