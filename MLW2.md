@@ -7,7 +7,7 @@ The following criteria must be established in order to visualize the eigenvalues
   1. Define all constants
   2. Discretize all space
   3. Define matrix (V), kinetic energy (T), and their sum (H) as matricies 
-``` 
+```Matlab 
 function PIB( n ) %n is number of eigenvalues
 %constants defined
 hbar = 1.05E-34/; %hbar in Js
