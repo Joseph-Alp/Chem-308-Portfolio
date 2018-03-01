@@ -17,14 +17,14 @@ In order to solve for the TDSE, we must serarate the variables of space (postion
 <p align="center">  $\Psi(x,t)= \psi(x) T(t) $, </p>
 where $\psi(x)$ is in the solution set for the TISE $\{ {\psi(x)}_n \}$.
 
-Here, T(t) is always equal to $$e^{-i E_n t/\hbar}$$. As a result, the TDSE is rewritten in the form of: \begin{equation} \mathcal{H}\psi(x,t) = Psi(x,t)e^{-i E_n t/\hbar} \end{equation}. This is allowed only if the position and time variables are separated, as the energy eigenfunctions are defined as stationary.
+Here, T(t) is always equal to $$e^{-i E_n t/\hbar}$$. As a result, the TDSE is rewritten in the form of: \begin{equation} \mathcal{H}\psi(x,t) = Psi(x,t)e^{-i E_n t/\hbar} \end{equation}. This is allowed only if the position and time variables are separated, as the energy eigenfunctions are defined as stationary. This is an incredible benefit over the TISE, where only one quantum state of a particle could be observed for a single time. 
 
 *By investigating multiple well defined states, we are able to utilize MatLab to generate plots of wavefunctions that reflect the [TDSE](/MLW6.md) for a PIB*
 
 These plots include: 
-1. The wave function in the position basis over time in both real and imaginary axes
-1. The wave function in the energy basis over time in both real and imaginary axes
-1. The probability density of position in the real axis, while observing the expectation value and average energy
+1. The wave function in the position basis over time in both real and imaginary axes (top left)
+1. The wave function in the energy basis over time in both real and imaginary axes (top right)
+1. The probability density of position in the real axis, while observing the expectation value and average energy (bottom center)
 
 
 # Further Exploration 
