@@ -1,7 +1,5 @@
 ## Joseph Alp, Bates College
 
-
-### Chemistry 308 Portfolio
 This portfolio is a collection of physical chemistry projects completed throughout Chemistry 308: *Topics in Physical Chemistry*. Through a combination of programing on GitHub and MatLab, a heavy emphasis on probing topics in quantum chemistry via linear algebra is explored.
 
 As MatLab requires a strong foundation in linear algebra and complex numbers, please refer to the [tutorial](/Linear_Algebra_Basics.md) if needed.  
