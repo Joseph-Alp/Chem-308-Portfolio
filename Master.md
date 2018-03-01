@@ -17,7 +17,10 @@ There, the HH is the Hamiltonian operator.
 For every eigenvalue obtained, there must also exist a definitively defined state. 
 
 The equation that describes quantum mechanics of particles in well defined energy states can be determined by the time independent 
-Schrödinger Equation, Ψ(x)Ψ(x).
+Schrödinger Equation, Ψ(x)Ψ(x). Four our purposes, this will consist primarily of function. When using functions to represent the wave function, the Hamiltonian can be expressed as: $$\hat{H} = -\frac{\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)$$. Here, $$m$$ is the mass of the particle and $$V(x)$$ is the potential energy operator. Furthermore, the stationary state energies are equal to $$\psi_n=\sqrt{\frac{2}{l}}sin(\frac{n\pi x}{l})$$ where $$n$$ is the stationary state and $$l$$ is the length of the box for our model.
+
+This concept is the foundation for all of our MatLab codes centering around the TISE from Week 1 - Week 4, and is commented in detail.
+
 
 The time dependent Schrödinger describes all physically realizable states, 
 and is defined by the equation: \begin{equation}\label{tdse} \mathcal{H}\Psi(x,t) = E\Psi(x,t) \end{equation} 
