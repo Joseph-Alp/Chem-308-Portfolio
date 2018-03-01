@@ -7,7 +7,7 @@ The following criteria must be established in order to visualize the eigenvalues
   1. Define all constants
   2. Discretize all space
   3. Define matrix (V), kinetic energy (T), and their sum (H) as matricies 
-  
+``` 
 function PIB( n ) %n is number of eigenvalues
 %constants defined
 hbar = 1.05E-34/; %hbar in Js
@@ -42,3 +42,4 @@ vals=diag(vals); % making eigenvalues into vector (same size as x=pts)
 figure(1);plot(x,Vvec); % plot of potential energy vs discretized points
 
 end
+```
