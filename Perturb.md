@@ -1,3 +1,4 @@
+```Matlab
 function      Perturb2018
 %% PIB example demonstrating the use of the eigenvectors of a simple hamiltonian to understand those of a more complicated one.
 
@@ -97,3 +98,4 @@ for j = 1:v
         title('Central Barrier Energy Eigenfunctions in Left-Well and Right-Well Bases')
     end
 end
+```
