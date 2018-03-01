@@ -4,7 +4,7 @@
 ### Refining the TDSE PIB 
 1. The TDSE for the PIB with a linear commbination of the first two state values
 
-
+```Matlab
 function TDSEa(n)
 hbar=1;
 m=1; % mass of electron (switched from SI)
@@ -116,5 +116,5 @@ function JA_plot3(basisaxis,psi);
         view([70,10])       % define the view angle
 grid on             % turn on the grid
 end 
-
+```
 [Go back to home page](/README.md)
