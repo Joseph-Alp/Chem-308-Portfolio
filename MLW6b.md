@@ -1,6 +1,6 @@
 ## Gaussian Update
 [Go back to home page](/README.md)
-
+```Matlab
 function TDSE(n)
 %Gaussian Bump Code
 hbar=1;
@@ -121,3 +121,4 @@ function JA_plot3(basisaxis,psi);
         view([70,10])       % define the view angle
 grid on             % turn on the grid
 end 
+```
