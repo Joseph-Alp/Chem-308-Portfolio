@@ -7,6 +7,7 @@
 Kinetic Energy within a PIB
 
 '''Matlab
+
 function [R,L,D] = kinetic(n,dx) % n = the size of matrix; dx = the change in x
 
 % M = -eye(n);
