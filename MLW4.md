@@ -2,6 +2,7 @@
 
 Updated, Finalized Format For PIB 
 
+```Matlab
 function PIB( n ) % n is the number of eigenvalues
 
 % Defining Constants
@@ -58,3 +59,4 @@ srtvecs=vecs(:,ord);
 srtvals=diag(dsort);
 
 end
+```
