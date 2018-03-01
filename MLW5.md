@@ -2,6 +2,7 @@
 
 #TDSE 
 
+```Matlab
 function TDSEa(n)
 hbar=1;
 m=1; % mass of electron
@@ -96,3 +97,7 @@ function JA_plot3(basisaxis,psi);
         pbaspect([3,1,1])   % fix aspect ratio of 3D plot
         view([70,10])       % define the view angle
 grid on             % turn on the grid
+
+end
+
+```
