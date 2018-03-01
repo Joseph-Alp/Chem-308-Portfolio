@@ -3,7 +3,7 @@
 
 This code continues off of week 5, but incorporates the expectation value for position for the first two states.
 
-
+```Matlab
 function TDSEa(n)
 hbar=1;
 m=1; % mass of electron (switched from SI)
@@ -119,3 +119,4 @@ function JA_plot3(basisaxis,psi);
         view([70,10])       % define the view angle
 grid on             % turn on the grid
 end 
+```
