@@ -36,8 +36,8 @@ this is no different than saying the Hamiltonian operator is the sum of the kine
 continue with the factoring with ease. As we are not pulling out anything being acted upon by a different Hamiltonian, we are in good shape. 
 This is no different than pulling out a scalar. 
 
-This our new, rewritten wave function that is equal to the operator that is used to operate on the original wave function. If 
-we want to delve into the minutiae of how this new wave function would look like in MatLab, we can do this simply by studying our equation:
+Thus, (5) is our new, rewritten wave function that is equal to the operator that is used to operate on the original wave function. If 
+we want to delve into the minutiae of how this new wave function would look like in MatLab, we can do this simply by studying our equation (5):
 
 We already know that the operator is the sum of two matrices: 
 * The constants & the Hamiltonian operator
