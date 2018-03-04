@@ -46,5 +46,5 @@ We already know that the operator is the sum of two matrices:
 Using this, we can neatly plot wave functions after defining our change in time and use 
 the output of the operation input for the next. 
 
-
+[home](/README.md)
 
