@@ -31,12 +31,11 @@ we can isolate the wave function with the delta t to yield:
 
 \begin{equation}\label{delta7} \psi_{(x,t+\Delta t)}=(\frac{\Delta t}{i\hbar}\hat{H}+1)\psi_{(x,t)} \end{equation}
 
-It was a point of initial contention if $$\psi_{(x,t)}$$ could have been factored out of the overall equation. After realizing that 
+It was a point of initial contention if $$\psi_{(x,t)}$$ could be factored out of the overall equation. After realizing that 
 this is no different than saying the Hamiltonian operator is the sum of the kinetic and potential energy operators, we were able to 
-continue with the factoring with ease. As we are not pulling out anything being acted upon by a different Hamiltonian, we are in good shape. 
-This is no different than pulling out a scalar. 
+continue with the factoring with ease. As we are not pulling out anything being acted upon by a different Hamiltonian, we are in good shape. This is no different than pulling out a scalar. 
 
-Thus, (5) is our new, rewritten wave function that is equal to the operator that is used to operate on the original wave function. If 
+Thus, (5) is our new, rewritten wave function that is equal to the operator that we use to operate on the original wave function. If 
 we want to delve into the minutiae of how this new wave function would look like in MatLab, we can do this simply by studying our equation (5):
 
 We already know that the operator is the sum of two matrices: 
