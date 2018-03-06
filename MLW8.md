@@ -43,7 +43,9 @@ We already know that the operator is the sum of two matrices:
 * The scalar of one with values along the diagonal 
 
 Using this, we can neatly plot wave functions after defining our change in time and use 
-the output of the operation input for the next. 
+the output of the operation input. 
+
+
 
 [home](/README.md)
 
