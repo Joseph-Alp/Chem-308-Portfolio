@@ -33,4 +33,4 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 # Perturbation Theory 
 1. [Introduction to Pertubation Theory](/IntroPerturbation.md) (Week 8) 
     1.  [Re-Writing The TDSE To Consider Different Times](/MLW8.md) 
-2. [Quantum Selection Rules](/Selection_Rules.md) (Week 9)
+1. [Quantum Selection Rules](/Selection_Rules.md) (Week 9)
