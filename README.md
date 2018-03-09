@@ -18,7 +18,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Code For Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
 1. [Code For Investigating the PIB via TISE](/MLW3a.md) (Week 3)
     1.  [Code arranging eigenvalues in ascending order](/MLW3b.md)
- 1. [Finalized TISE, PIB Code](/MLW4.md) (Week 4)
+1. [Finalized TISE, PIB Code](/MLW4.md) (Week 4)
 
 # Time Dependent Schrodinger Equation (TDSE)
   Background information provided for all time dependent Schrodinger equation inquiries can be found [here](/MasterTDSE.md). 
@@ -33,4 +33,5 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 # Perturbation Theory 
 1. [Introduction to Pertubation Theory](/IntroPerturbation.md) (Week 8) 
     1.  [Re-Writing The TDSE To Consider Different Times](/MLW8.md) 
+    
 1. [Quantum Selection Rules](/Selection_Rules.md) (Week 9)
