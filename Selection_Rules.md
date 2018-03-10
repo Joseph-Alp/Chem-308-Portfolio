@@ -8,4 +8,6 @@ foundation of Selection Rules, and viewed how they apply to our new insight.
 
 ## Founded In Conservation
 
+For the purpose of this course we will be taking the idea of conservation of energy, and extend it toward symmetry. For nearly every physics course, the idea that energy is conserved throughout a system has been an ingrained idea: the starting energy is always equal to the final energy. It turns out that these conservation laws are related to fundamental symmetries of physics. A symmetry means that you can do something that does not make a difference. For example, it would not matter where you would place a set of particles within an empty space (assuming nothing will affect the particles). Additionally, time symmetry can then denote energy conservation. We can apply this toward our quantum investigations as time-shift symmetry is built into the Schrodinger equation. The equation does not depend on what time it takes to become zero. Any solution of the equation can be shifted in time, assuming a Hamiltonian that does not depend explicitly on time.
+
 
