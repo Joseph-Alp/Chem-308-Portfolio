@@ -8,9 +8,10 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 
 # Table of Contents
 
-1. Vectors & Quantum State Descriptors 
-1. The Particle In a Box Paradigm (PIB) & the Time Independent Schrodinger Equation
-1. Observable Properties
+1. [Vectors & Quantum State Descriptors](/Master1.md)
+1. [Observable Operator Properties](/Master2.md)
+1. [The Particle In a Box Paradigm (PIB)](/Master3.md)
+
 
 *MatLab Work*
 
