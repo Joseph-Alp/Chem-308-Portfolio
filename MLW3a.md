@@ -1,7 +1,8 @@
-[home](/README.md)
 
 
-Below is a continuation of the work from week 2, involving the PIB system.
+
+Below is a continuation of the work from week 2, involving the PIB system. Only continuing to tweak the code and variables.
+
 ```Matlab
 function PIB( n ) % n is the number of eigenvalues
 
@@ -55,3 +56,4 @@ srtvals=diag(dsort);
 
 end
 ```
+[Home](/README.md)
