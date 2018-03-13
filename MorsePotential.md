@@ -6,7 +6,7 @@ From Quantum, we understand the Harmonic Oscillator to be an approximation from 
 
 In the previous section, we saw how to solve for the HO, PIB in accordance to our selection [rules](/HO.md) in MatLab. However, this also results in a lot of anharmonicity for our model as we are largely approximating. A much more effective method of approximation for the vibrational structure of the molecule than the harmonic oscillator is to incorporate the Morse Potential. This is because it explicitly includes the effects of bond breaking and accounts for the anharmonicity of real bonds with non-zero transition probability for overtone and combination bands.
 
-The Morse Potential is a good approximation to $$/V(x)$$, and using the same code as the previous section, we can incorporate this into our HO model. 
+The Morse Potential is a good approximation to $$V(x)$$, and using the same code as the previous section, we can incorporate this into our HO model. 
 
 
 ```Matlab
