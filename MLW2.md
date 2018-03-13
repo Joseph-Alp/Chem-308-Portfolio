@@ -52,7 +52,7 @@ Vvec=zeros(pts,1);
 Vvec([1:w,(end-(w-1)):end])=barht;
 V=diag(Vvec);
 ```
-
+```Matlab
 %Defining Hamiltonian Operator
 H = T+V; % determine H by potential and kinetic energy matrices
 [vecs,vals]=eig(H); % finding eigenvectors and eigenvalues
