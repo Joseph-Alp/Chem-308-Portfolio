@@ -34,4 +34,5 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Introduction to Pertubation Theory](/IntroPerturbation.md) (Week 8) 
     1.  [Re-Writing The TDSE To Consider Different Times](/MLW8.md) 
 1. [Quantum Selection Rules](/Selection_Rules.md) (Week 9)
-1. [Testing Selection Rules for a Harmonic Oscillator]...... 
+1. [Testing Selection Rules for a Harmonic Oscillator](/HO.md)
+    1.  [Exploring the Morse Potential](/MorsePotential.md) 
