@@ -1,3 +1,5 @@
+# Morse Potential
+
 From Quantum, we understand the Harmonic Oscillator to be an approximation from classical physics. This is due in partially to the fact that an arbitrary potential curve  V(x)  can usually be approximated as a harmonic potential. Furthermore, it is one of the few quantum-mechanical systems for which an exact, analytical solution exists.  
 
 In the previous section, we saw how to solve for the HO, PIB in accordance to our selection [rules](/HO.md) in MatLab. However, this also results in a lot of anharmonicity for our model as we are largely approximating. A much more effective method of approximation for the vibrational structure of the molecule than the harmonic oscillator is to incorporate the Morse Potential. This is because it explicitly includes the effects of bond breaking and accounts for the anharmonicity of real bonds with non-zero transition probability for overtone and combination bands.
@@ -72,3 +74,5 @@ We are then able to visualize the first ten energy levels, where we can see the 
 ![MP](/MP.png)
 
 Unlike the energy levels of the harmonic oscillator potential, which are evenly spaced by ħω, the Morse potential level spacing decreases as the energy approaches the dissociation energy. 
+
+[Home](/README.md)
