@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # Harmonic Oscillator Code
 
 Now that we have laid the foundation for what the Selection Rules allow us to observe in quantum states, we can test this newfound knowledge with our simple, PIB code that was written in the early weeks of this course. 
@@ -80,6 +82,6 @@ end
 
 The resulting figure from this code testing the Selection Rules for a Harmonic Oscillator is:
 
-[HO](/HO.png)
+![HO](/HO.png)
 
 It turns out that the only transition allowed for our HO follows the selection rule of /DeltaV = +/- 1. 
