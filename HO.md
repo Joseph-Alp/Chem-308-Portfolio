@@ -31,18 +31,23 @@ The same may be said with this segment of code, which is just designing our seco
 % D=A+B+B2; % second derviative
 D=(1/((dx)^2)).*(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1)); % second derivative matrix
 ```
-Likewise, the same can be said for this code segment, as it was previously discussed in depth. The only modification made for this project was changing the sc to 75, which allowed greater spacing between our eigenvectors on our figure, making it easier to visualize. 
+Here, our KE matrix is left untouched.
+
 ```Matlab
 % Kinetic energy matrix and constants
 T=c.*D; 
-
+```
+One critical modification to the PIB code, was to alter Vvec to be equal to the system's potential energy for the HO. Our "spring" potential, or k, is set to 1000 for our model. 
+```Matlab
 % Defining Potential Energy Matrix
 %Vvec=zeros(pts,1); %see notes from 1/23/18 for corresponding image
 %Vvec([1:w,(end-(w-1)):end])=barht;
 k=1000;
 Vvec=0.5*k*x.^2
 V=diag(Vvec);
-
+```
+The only modification made for this code segment was to change the sc to 75, which allowed greater spacing between our eigenvectors on our figure, making it easier to visualize.
+```Matlab
 % Defining the Hamiltonian Operator
 H=T+V; % Hamiltonian (H) matrix %potential and kinetic energy matrices
 [vecs,vals]=eig(H); % finds eigenvectors and eigenvalues (vals is matrix form of eigenvalues)
