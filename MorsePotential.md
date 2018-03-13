@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # Morse Potential
 
 From Quantum, we understand the Harmonic Oscillator to be an approximation from classical physics. This is due in partially to the fact that an arbitrary potential curve  V(x)  can usually be approximated as a harmonic potential. Furthermore, it is one of the few quantum-mechanical systems for which an exact, analytical solution exists.  
@@ -76,4 +78,4 @@ We are then able to visualize the first ten energy levels, where we can see the 
 Unlike the energy levels of the harmonic oscillator potential, which are evenly spaced by ħω, the Morse potential level spacing decreases as the energy approaches the dissociation energy. 
 
 [Home](/README.md)
-{% include mathjax.html %}
+
