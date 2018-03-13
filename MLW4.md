@@ -1,6 +1,7 @@
-(For a table of contents, visit the [home page](/README.md))
 
 Updated, Finalized Format For PIB 
+
+In order to have normalized data for our PIB, we set our constants equal to 1. We set the number of discretized spaces to 100 across all groups to ensure uniformity. Other than this brief modifications, the constant values are the same as in [week 2](/MLW2.md) 
 
 ```Matlab
 function PIB( n ) % n is the number of eigenvalues
@@ -15,7 +16,10 @@ barht=1E6; % bar height on potential matrix in our system
 x=linspace(0,l,pts); % discretized all space
 dx=x(2)-x(1); %dx definition
 c=-(hbar.^2)./(2.*m); % constants in kinetic energy; note periods apply to elements only
+```
+Here, the second derivative matrix, defined as D, is organized. This complies all of the constants defined above into a formula capable of providing us with a wave function for our particle further down the line.
 
+```Matlab
 % Defining second derivative matrix for kinetic energy
 % A=-2*eye(pts); % 2 on diagonal
 % b=ones(pts-1,1); % vector of 1
@@ -23,18 +27,31 @@ c=-(hbar.^2)./(2.*m); % constants in kinetic energy; note periods apply to eleme
 % B2=diag(b,1); % 1 above diagnol
 % D=A+B+B2; % second derviative
 D=(1/((dx)^2)).*(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1)); % second derivative matrix
+```
 
+Here, we have set up our the kinetic energy matrix, and will be modifying this section further. In short, the KE matrix is equal to the speed of light multiplied by the complex congugate of our second derivative matrix.
 
+```Matlab
 % Kinetic energy matrix and constants
 T=c.*D; %See 1/25 notebook for notation details for reference 
+```
 
+The potential energy for our system is given by a matrix in the position basis. The matrix has the values of the potential energy for reach position (x) along its diagonal. The number of position points is discrete and can easily be varied in our Matlab code pending our needs, which we determined back in our constants section. To create the potential energy matrix, we need to create a square matrix of some desired size. The matrix originally has zeros in all its entries, then we add the potential energy values on its diagonal using the following code:
+
+```Matlab
 % Defining Potential Energy Matrix
 Vvec=zeros(pts,1); %see notes from 1/23/18 for corresponding image
 Vvec([1:w,(end-(w-1)):end])=barht;
 V=diag(Vvec);
+```
 
+The next paramount feature of this code is to define our Hamiltonian operator, which we have determined to be equal to thesum of the KE matrix and potential energy.
+```Matlab
 % Defining the Hamiltonian Operator
 H=T+V; % Hamiltonian (H) matrix %potential and kinetic energy matrices
+```
+
+```Matlab
 [vecs,vals]=eig(H); % finds eigenvectors and eigenvalues (vals is matrix form of eigenvalues)
 plot(vals)
 [srtvecs,srtvals]=eigsort(vecs,vals); %arranges eigenvalues in ascending order
@@ -50,6 +67,7 @@ shiftvecs=srtvecs+repvals; % eigenvectors shifted based on the repvals' matrix
 figure(1);plot(x,shiftvecs(:,1:8),x,Vvec); % plot potential well and eigenvectors (1-8)
 axis([-inf inf -.25 200]); % custom axes to view eigenvectors
 
+
 end
 
 function [ srtvecs,srtvals ] = eigsort( vecs,vals )
@@ -60,3 +78,4 @@ srtvals=diag(dsort);
 
 end
 ```
+[Home page](/README.md))
