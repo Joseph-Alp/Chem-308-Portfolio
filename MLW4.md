@@ -50,6 +50,7 @@ The next paramount feature of this code is to define our Hamiltonian operator, w
 % Defining the Hamiltonian Operator
 H=T+V; % Hamiltonian (H) matrix %potential and kinetic energy matrices
 ```
+This last major chunk of code is were most of the calculations take place. As we have already defined our KE and PE matricies, as well as our Hamiltonian, we can insert our vecs and vals to solve for our eigenvectors and eigenvalues for the PIB, respectively. These details are also noted in the comments for the code mentioned below:
 
 ```Matlab
 [vecs,vals]=eig(H); % finds eigenvectors and eigenvalues (vals is matrix form of eigenvalues)
@@ -67,9 +68,11 @@ shiftvecs=srtvecs+repvals; % eigenvectors shifted based on the repvals' matrix
 figure(1);plot(x,shiftvecs(:,1:8),x,Vvec); % plot potential well and eigenvectors (1-8)
 axis([-inf inf -.25 200]); % custom axes to view eigenvectors
 
-
 end
+```
 
+This is the code previously mentioned that arranged the eigenvalues in ascending order for ease of interpretation in the final figure. 
+```Matlab 
 function [ srtvecs,srtvals ] = eigsort( vecs,vals )
 d=diag(vals);
 [dsort,ord]=sort(d);
