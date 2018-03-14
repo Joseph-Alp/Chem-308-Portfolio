@@ -23,5 +23,13 @@ such as molecular orbitals
 * Thus, both left and right wells can tell us the contributions to the central barrier, which is the total net contribution between 
 these molecular orbitals 
 
+![HO](/H2_MO_Diag.gif)
+
+The molecular orbital approach is one explanation for the H-H bond; this explanation is based on a mathematical model. In terms of wave mechanics, we can see that the two waves constructively interact. This is the foundation of our sigma bond, as it is a stabilizing interactio found at a lower energy than the anti-bonding counterpart. 
+
+Similarly, we can look at the atomic orbitals of our diatomic hydrogen model. Here we see that each orbital accommodates two electrons, and the two electrons in H-H fills the sigma 1s molecular orbital. The result of this formation is an H2 molecule, where the energy of the system is lowered and more stable. Although this is a simplified diagram we have all learned since introductory chemistry, it is a simplified version of our quantum explanation about how these bonding interactions occur.
+
+![HO](/sigmah2.gif) 
+
 
 [Go back to home page](/README.md)
