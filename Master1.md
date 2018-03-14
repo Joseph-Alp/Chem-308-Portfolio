@@ -28,7 +28,7 @@ where $$\mathcal{H}$$ is the Hamiltonian operator formed
 by the sum of the potential and kinetic energy operators, and $$\Psi(x,t)$$ is a time- and space-dependent wavefunction.
 
 In viewing this, we can understand quantum states and being made up of other, possible states. As a result, we can utilize MatLab
-to show that the states of a quantum system can be representedvia vectors in a complex vector space whch was first demonstrated 
+to show that the states of a quantum system can be represented via vectors in a complex vector space which was first demonstrated 
 during [Week 1](/MLW1.md) of this course. This concept was taken a step further by looking at [three dimentional space](/MLW4.md) (x,y,z) as a basis set for vectors in a PIB.
 
 Thus, several assumptions must be made inorder to interchange bases when taking the inner product:
