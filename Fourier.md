@@ -6,6 +6,7 @@ We have already discussed changing basis sets in previous sections; however, we 
 
 We can represent a state with either \bgroup\color{black}$\psi(x)$\egroup or with \bgroup\color{black}$\phi(p)$\egroup where 
 Φ = momentum-space wavefunction, and Ψ = position-space wavefunction. 
+
 With these variables, we are able to Fourier transform from one to the other using the following symmetric Fourier transform:
 
 ![Fourier](/fourier.png) 
@@ -13,7 +14,7 @@ With these variables, we are able to Fourier transform from one to the other usi
 Note that this is only in 1-dimension. 
 
 Q: What can we expect to see when performing the Fourier transform between position and momentum?
-A: We can observe the following graph generated in MatLab using this code.
+A: We can observe the following graph generated in MatLab using this [code](/PosAndMomVarWidth.md).
 
 ![Four1](/four2.gif) 
 ![Four2](/four3.gif)
