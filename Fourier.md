@@ -16,8 +16,8 @@ Note that this is only in 1-dimension.
 Q: What can we expect to see when performing the Fourier transform between position and momentum?
 A: We can observe the following graph generated in MatLab using this code.
 
-![Four1](/four1.gif) 
-![Four2](/four2.gif)
+![Four1](/four2.gif) 
+![Four2](/four3.gif)
 
 In each of the graphs represented, we have the position and momentum basis. The plane in the middle is at zero position (x = 0), and
 zero momentum (k = 0). We are able to observe that at a higher momemntum, there is a shortening in the wavelength, 
