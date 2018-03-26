@@ -1,3 +1,4 @@
+```Matlab
 function	PosAndMomVarWidth
 % Make two 3d plots of psi, one in position space and the
 % other in momentum space.
@@ -90,3 +91,4 @@ function   MjC_plot3(Xx,Yx,Zx,x,Rx,Ix,clr,A)
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+```
