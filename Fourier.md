@@ -1,3 +1,7 @@
+{% include mathjax.html %}
+
+
+
 # Fourier Transformation
 
 A Fourier series represents any periodic function as a sum of sine and cosine functions with appropriate coefficients. 
@@ -11,12 +15,13 @@ We can represent a state with either $\psi(x)$ or with $\phi(p)$ where
 With these variables, we are able to Fourier transform from one to the other using the following symmetric Fourier transform:
 
 ![Fourier](/fourier.png) 
+
 (Note that this is only in 1-dimension) 
 
 We are then able to use Euler's approximation $e^{ikx}=cos(kx)+isin(kx)$ show sinusoids as a wavenumber.
 
-Q: What can we expect to see when performing the Fourier transform between position and momentum?
-A: We can observe the following graphs generated in MatLab using this [code](/PosAndMomVarWidth.md).
+* Q: What can we expect to see when performing the Fourier transform between position and momentum?
+* A: We can observe the following graphs generated in MatLab using this [code](/PosAndMomVarWidth.md).
 
 ![Four1](/four2.gif) 
 ![Four2](/four3.gif)
