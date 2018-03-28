@@ -37,4 +37,5 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Testing Selection Rules for a Harmonic Oscillator](/HO.md) (Week 10)
     *    [Exploring the Morse Potential](/MorsePotential.md) 
 
-# [Fourier Transformations](/Fourier.md)
+# Fourier Transformations
+1. [Exploring the Fourier Transform](/Fourier.md)
