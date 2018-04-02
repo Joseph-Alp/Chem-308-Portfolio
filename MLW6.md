@@ -1,8 +1,9 @@
-[Home](/README.md)
 
 
 ### Refining the TDSE PIB 
-1. The TDSE for the PIB with a linear commbination of the first two state values
+
+Now that we have seen the PIB  with the TDSE, we can afford to be choosy when deciding how to observe our system. Using the same code as the previous section, we can us the TDSE for the PIB for a linear commbination of the first two state values. As nothing is new is presented here, other than observing a specific set of states, please read the comments for each line to familiarize yourself with the role each coded line plays.
+
 
 ```Matlab
 function TDSEa(n)
@@ -117,4 +118,4 @@ function JA_plot3(basisaxis,psi);
 grid on             % turn on the grid
 end 
 ```
-[Go back to home page](/README.md)
+[Home](/README.md)
