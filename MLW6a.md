@@ -1,7 +1,6 @@
 ## Update
-[Go back to home page](/README.md)
 
-This code continues off of week 5, but incorporates the expectation value for position for the first two states.
+This code continues from week 5, but incorporates the expectation value for position for the first two states.
 
 ```Matlab
 function TDSEa(n)
@@ -120,3 +119,5 @@ function JA_plot3(basisaxis,psi);
 grid on             % turn on the grid
 end 
 ```
+
+[Home](/README.md)
