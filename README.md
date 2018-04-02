@@ -17,7 +17,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Code For Investigating the Properties of PIB](/MLW1.md) (Week 1)
 1. [Code For Defining The KE Matrix For PIB](/MLW2.md) (Week 2) 
 1. [Code For Investigating the PIB via TISE](/MLW3a.md) (Week 3)
-    *    [Code arranging eigenvalues in ascending order](/MLW3b.md)
+    *   [Code arranging eigenvalues in ascending order](/MLW3b.md)
 1. [Finalized TISE, PIB Code](/MLW4.md) (Week 4)
 
 # Time Dependent Schrodinger Equation (TDSE)
@@ -28,7 +28,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Code For Calculating The First Two Expectation Values For TDSE PIB](/MLW6a.md) (Week 7) 
     *    [Further modifying range of states explored](/MLW6c.md) 
     *    Gaussian functions are often used to represent the probability density function of a normally distributed variable. We can apply 
-        a Gaussian bump(s) in MatLab to our TDSE PIB to observe the [expectation value](/MLW6b.md) when we localize the particle to the right of the potential well.
+        a Gaussian bump(s) in MatLab to our TDSE PIB to observe the expectation value when we localize the particle to the right of the potential well.
 
 # Perturbation Theory 
 1. [Introduction to Pertubation Theory](/IntroPerturbation.md) (Week 8) 
