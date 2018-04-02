@@ -1,6 +1,10 @@
-[home](/README.md)
 
-#TDSE 
+
+# Time Dependent Schrodinger Equation
+
+Now that we have a comfortable foundation for setting up the PIB paradigm, we can take this a step further and apply it for the time dependent schrodinger equation. We have already discussed that a stationary state is an energy eigenstate of the Hamiltonian operator. Stationary states have well-defined energy, as they describe a single energy state. There are only contributions from one energy state to the overall state. 
+
+We are already familiar with this portion of code. It was explained in the last section; it simply sets up our PIB. 
 
 ```Matlab
 function TDSEa(n)
@@ -33,12 +37,20 @@ psiX=EtoX*psiE;
 % v=diag(srtvals); % vector of sorted eigenvalues
 % repvals=(ones(pts,1))*v';
 % shiftvecs=srtvecs+repvals;
+```
+Here, we begin to delve into setting up our PIB. Please follow the comments for each portion of code denoted by the "%" before each line to understand its function in MatLab.
 
+```Matlab 
 %New Content
+%%set t to get animation with time evolving
 t=0; dt=0.1;
+
 for k=1:50
+%introduce time evolution
     psiEt=psiE.*exp(-i*diag(srtvals)*t/hbar);
     npsiEt=psiEt/sum(psiEt); % normalize vector of psiE (dependent on time)
+    
+    %normalize these vectors
     psiXt=EtoX*psiEt;
     npsiXt=psiXt/sum(psiXt); % normalize vector of psiX (dependent on time)
     rpsiEt=psiE.*cos(diag(srtvals)*t/hbar); % real psiEt
@@ -101,3 +113,4 @@ grid on             % turn on the grid
 end
 
 ```
+[Home](/README.md)
