@@ -66,6 +66,17 @@ figure(1);plot(x,shiftvecs(:,1:8),x,Vvec); % plot potential well and eigenvector
 axis([-inf inf -.25 200]); % custom axes to view eigenvectors
 ```
 This is where the new segment has come into play, and merits discussion. The purpose of this project is to apply our PIB code, into a model that tests the Selection Rules for a Harmonic Oscillator system. We can think of this system as a heteronuclear, diatomic compound, such as H-Cl. If we visualize H-Cl in this light, we can reason that the "heavy" chlorine atom remains relatively stationary, while the hydrogen atom bound to it is moving in an assortment of transitions. In other words, there is a dipole in the direction of chlorine. This manifests mathematically into the formulation: < $$\psi_{i}$$, x, $$\psi_{f}$$ >  = scalar quantity. In other words, this is the vecs vector transpose multiplied by the position operator matrix, times the vecs vector. This provides us the possibility of seeing all the transitions possible for our system. Thus, we plug in the code below using the pcolor command, which allows us to visualize a subset of the total amount of transitions possible. 
+
+To find the probability of a transition from a state $\psi_n$ to $\psi_m$ is given by the transition integral given by
+
+$M_{nm}=\int \psi_n \vec{\mu} \psi_m $.
+
+In order to calculate this, we must change this integral into an inner product. The transition probability is the given by
+
+$M_{nm}=<\psi_n, \vec{\mu} \psi_m >$.
+
+This form is ready for Matlab computation. The code notated below using "M=vecs...." calculated the transition probability.
+
 ```Matlab
 %Harmonic Oscillator Selection Rules
 M=vecs'*diag(x)*vecs %This describes our vecs', reduced mass matrix, and vecs
