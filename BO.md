@@ -1,4 +1,7 @@
-#Born-Oppenheimer Approximation 
+{% include mathjax.html %}
+
+
+# Born-Oppenheimer Approximation 
 
 The Born-Oppenheimer Approximation states that because the mass of a nucleus is considered significantly larger than 
 the mass of an electron, on the time-scale of the motion of an electron, the nucleus can be treated as stationary.
