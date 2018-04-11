@@ -51,7 +51,7 @@ that the rate of change of ψ with respect to Ra is insignificant.
 
 In doing this, we have: 
 $\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}$. 
-*(Also for nuclei b)* 
+*(Also for nuclei a)* 
 
 This makes our job a lot easier, and after simple algebraic manipulation, we finally arrive at our Hamiltonian:
 <p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
