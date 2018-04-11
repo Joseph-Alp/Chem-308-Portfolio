@@ -56,11 +56,13 @@ $\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{
 This makes our job a lot easier, and after simple algebraic manipulation, we finally arrive at our Hamiltonian:
 <p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
 
-Deriving this Hamiltonian, we are left with an equation that describes the dynamics for the two nuclei in our system. 
+Deriving this Hamiltonian, we are left with an equation that describes the dynamics for the two nuclei in our system which is our Schrodinger equation using the Born-Oppenheimer approximation. 
 The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus - nucleus repulsion and the electron-nucleus attraction.
-Due to their different charges, the dominant interaction here is the electron-nucleus. 
-On the other hand, for small separation of the nucleus - nucleus repletion is the dominant interaction. 
-Therefore, the potential energy will have the form seen below:
+This shows that the total potential is based on both the potential energy of the nucleus-nucleus interaction in addition to 
+the componenets that go into the energy of the electron. *This includes the KE of the electron as well as the PE interactions 
+between the nucleus and electron*
+
+Therefore, the potential energy will have the form seen in the well below:
 
 ![bondenergy](/bondenergy.GIF)
 
