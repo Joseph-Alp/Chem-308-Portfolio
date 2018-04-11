@@ -66,6 +66,9 @@ Therefore, the potential energy will have the form seen in the well below:
 
 ![bondenergy](/bondenergy.GIF)
 
+For many chemistry majors, this is a familiar image. The large divet is the equilibrium bond radius, which has the lowest energy.
+This graph is created by fixing the nuclei at a certain, fixed radius while the electron is placed into the system 
+where the lowest energy can then be determined. This is incredible! Because we are now able to observe bonding interactions on a quantum level, molecular dynamics can now be explored using quantum mechanics.
 
 
 [Home](/README.md) 
