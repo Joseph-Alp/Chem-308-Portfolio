@@ -55,7 +55,7 @@ $\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{
 *(Also for nuclei b)* 
 
 This makes our job a lot easier, and after simple algebraic manipulation, we finally arrive at our Hamiltonian:
-$\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.
+$\hat{T}_{nuclear}\chi + \hat{V}_{nuclear}\chi =\xi\chi$.
 
 Deriving this Hamiltonian, we are left with an equation that describes the dynamics for the two nuclei in our system. 
 The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus - nucleus repulsion and the electron-nucleus attraction.
