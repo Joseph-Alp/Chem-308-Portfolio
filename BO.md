@@ -27,19 +27,18 @@ and one electron. By doing this, we can visualize our model in the image below:
  
  We carried out this checklist in class by deriving the Hamiltonian, which is illustrated below: 
  
-$\hat{H}=\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc}$
+Ĥ =T̂ (nucleus) + T̂(electron) +V̂(nucleus−electron)+V̂(nucleus−nucleus)
 
 $=(\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b) + \frac{-\hbar^2 }{2M_e}\nabla^2_e + (\frac{-q^2}{4\pi \epsilon_0 r_a} + \frac{-q^2}{4\pi \epsilon_0 r_b})+ \frac{q^2}{4\pi \epsilon_0 R_ab}.$
 
-We can then define our TISE as: $\hat{H}\Psi(r,R)=\xi \Psi(r,R)$ 
-such that: $(\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc})\Psi(r,R)=\xi \Psi(r,R).$
+We can then define our TISE as: $\hat{H}\Psi(r,R)=\xi \Psi(r,R)$ such that: 
+$(\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc})\Psi(r,R)=\xi \Psi(r,R).$
 
 In order to move forward with our finalized Hamiltonian, we will need to separate according to variables and see if this can be simplied further.
 To do this let: $\Psi(r,R)=\psi(r;R)\chi(R),$
 
 This enables us to have our equation in the form:
-$\hat{T}_{nuclear}(\psi \chi)+\hat{T}_{electron}(\psi \chi)+\hat{V}_{nuc-e}(\psi \chi)+\hat{V}_{nuc-nuc}(\psi \chi)$
-                                                  $=\xi \psi \chi.$
+$\hat{T}_{nuclear}(\psi \chi)+\hat{T}_{electron}(\psi \chi)+\hat{V}_{nuc-e}(\psi \chi)+\hat{V}_{nuc-nuc}(\psi \chi)$ $=\xi \psi \chi.$
                                                 
 After some simple rearranging, we are left with:
 $\hat{T}_{nuclear}(\psi \chi)= (\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b) (\psi \chi) .$
@@ -51,11 +50,11 @@ is constantly moving in space, where the single electron moves relative to the c
 that the rate of change of ψ with respect to Ra is insignificant. 
 
 In doing this, we have: 
-$\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}$. $
+$\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}$. 
 *(Also for nuclei b)* 
 
 This makes our job a lot easier, and after simple algebraic manipulation, we finally arrive at our Hamiltonian:
-$\hat{T}_{nuclear}\chi + \hat{V}_{nuclear}\chi =\xi\chi$.
+<p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
 
 Deriving this Hamiltonian, we are left with an equation that describes the dynamics for the two nuclei in our system. 
 The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus - nucleus repulsion and the electron-nucleus attraction.
