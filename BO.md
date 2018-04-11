@@ -25,19 +25,19 @@ and one electron. By doing this, we can visualize our model in the image below:
  1. The electronic function parametrically depends on the radius of the nuclei 
  1. Our separation of variables will allow for us to approximate in our calculations 
  
- We carried out this checklist in class by deriving the Hamiltonian, which is illustrated below. 
+ We carried out this checklist in class by deriving the Hamiltonian, which is illustrated below: 
  
- $\hat{H}=\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc}$
+$\hat{H}=\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc}$
 
 $=(\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b) + \frac{-\hbar^2 }{2M_e}\nabla^2_e + (\frac{-q^2}{4\pi \epsilon_0 r_a} + \frac{-q^2}{4\pi \epsilon_0 r_b})+ \frac{q^2}{4\pi \epsilon_0 R_ab}.$
 
 We can then define our TISE as: $\hat{H}\Psi(r,R)=\xi \Psi(r,R)$ 
-such that $(\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc})\Psi(r,R)=\xi \Psi(r,R).$
+such that: $(\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc})\Psi(r,R)=\xi \Psi(r,R).$
 
 In order to move forward with our finalized Hamiltonian, we will need to separate according to variables and see if this can be simplied further.
 To do this let: $\Psi(r,R)=\psi(r;R)\chi(R),$
 
-This enables us to have our equation in the form
+This enables us to have our equation in the form:
 $\hat{T}_{nuclear}(\psi \chi)+\hat{T}_{electron}(\psi \chi)+\hat{V}_{nuc-e}(\psi \chi)+\hat{V}_{nuc-nuc}(\psi \chi)$
                                                   $=\xi \psi \chi.$
                                                 
