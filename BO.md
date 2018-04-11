@@ -63,11 +63,11 @@ Due to their different charges, the dominant interaction here is the electron-nu
 On the other hand, for small separation of the nucleus - nucleus repletion is the dominant interaction. 
 Therefore, the potential energy will have the form seen below:
 
-![bondenergy](/bondenergy.gif)
+![bondenergy](/bondenergy.GIF)
 
 
 
-
+[Home](/README.md) 
 
 
 
