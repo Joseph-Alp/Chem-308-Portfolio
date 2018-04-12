@@ -28,6 +28,8 @@ A transition dipole moment is a linear combination of the 1s and 2px AOs, where 
 
 Picture a 1s orbital and a 3d orbital. Could this transition take place? The 3d orbital is symmetric, where the position expectation value for our electron is close to the nucleus. No oscillating dipole exists for the 3d orbital, and therefore this transition is not allowed. This quantum realization is the foundation for the "filling in electrons" exercise in intro. chemistry. Selection Rules and oscillating transition dipoles are the fundamentals that explain a transition is allowed when it is energetically favored. 
 
+[Next Section: Testing Selection Rules for a Harmonic Oscillator](/HO.md)
 
+[Previous Section: Re-Writing The TDSE To Consider Different Times](/MLW8.md)
 
-
+[Home](/README.md)
