@@ -70,6 +70,6 @@ For many chemistry majors, this is a familiar image. The large divet is the equi
 This graph is created by fixing the nuclei at a certain, fixed radius while the electron is placed into the system 
 where the lowest energy can then be determined. This is incredible! Because we are now able to observe bonding interactions on a quantum level, molecular dynamics can now be explored using quantum mechanics. This is discussed in the next section.
 
-[Next Section:Potential Energy Surfaces](/PES.md)
+[Next Section: Potential Energy Surfaces](/PES.md)
 
 [Home](/README.md) 
