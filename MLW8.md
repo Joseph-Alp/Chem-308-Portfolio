@@ -45,7 +45,9 @@ We already know that the operator is the sum of two matrices:
 Using this, we can neatly plot wave functions after defining our change in time and use 
 the output of the operation input. 
 
+[Next Section: Quantum Selection Rules](/Selection_Rules.md)
 
+[Previous Section: Introduction to Pertubation Theory](/IntroPerturbation.md)
 
-[home](/README.md)
+[Home](/README.md)
 
