@@ -19,4 +19,5 @@ Knowing how to convert a vector to a different basis has many practical applicat
 approach to changing bases can be found [here](/Bases.md).
 
 [Next Section: The Particle In a Box Paradigm (PIB)](/Master3.md)
+
 [Home](/README.md)
