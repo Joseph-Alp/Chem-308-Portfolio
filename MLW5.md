@@ -49,7 +49,7 @@ For this segment of code, we are choosing how to see our graph after running the
 % repvals=(ones(pts,1))*v';
 % shiftvecs=srtvecs+repvals;
 ```
-Here, we begin to delve into setting up our PIB. Please follow the comments for each portion of code denoted by the "%" before each line to understand its function in MatLab.
+Here, we begin to delve into setting up our PIB. Please follow the comments for each portion of code denoted by the "%" before each line to understand its function in MatLab. This portion of code deals with the animations for each graph generated, discussed [here](/MasterTDSE.md).
 
 ```Matlab 
 %New Content
