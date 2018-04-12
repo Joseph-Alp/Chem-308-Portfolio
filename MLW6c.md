@@ -3,7 +3,7 @@
 
 This code is the same as in MLW6a; however, with the added goal of modifying the range of states explored.
 Gaussian functions are often used to represent the probability density function of a normally distributed variable. We can apply 
- a Gaussian bump(s) in MatLab to our TDSE PIB to observe the expectation value when we localize the particle to the right of the potential well. This is [discussed in depth here](/Master.md) 
+ a Gaussian bump(s) in MatLab to our TDSE PIB to observe the expectation value when we localize the particle to the right of the potential well. This is [discussed in depth here](/MasterTDSE.md). 
  
 ```Matlab
 function TDSEa(n)
