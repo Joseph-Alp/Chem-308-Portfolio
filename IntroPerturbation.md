@@ -33,5 +33,6 @@ Similarly, we can look at the atomic orbitals of our diatomic hydrogen model. He
 ![HO](/sigmah2.gif) 
 *(Source: goo.gl/mAKDWS)*
 
+[Next Section: Re-Writing The TDSE To Consider Different Times](/MLW8.md)
 
-[Go back to home page](/README.md)
+[Home](/README.md)
