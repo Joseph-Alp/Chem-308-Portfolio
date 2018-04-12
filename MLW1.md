@@ -1,10 +1,4 @@
-{% include mathjax.html %} 
-
-
-[Home](/README.md)
-
-
-Kinetic Energy within a PIB
+# Kinetic Energy Within PIB
 
 This brief code details the parameters for kinetic energy within a PIB system. Here, we have defined our function as dependent on three variables which constitute a series of vectors. We have specified our inputs: where n is the size of our matrix and dx is the change in our x variables.
 
@@ -35,3 +29,6 @@ D = (R*L + L*R)/2; % second derivative
 
 end function 
 ```
+
+[Next Section: Code For Defining The KE Matrix For PIB](/MLW2.md)
+[Home](/README.md)
