@@ -20,4 +20,6 @@ approach to changing bases can be found [here](/Bases.md).
 
 [Next Section: The Particle In a Box Paradigm (PIB)](/Master3.md)
 
+[Previous Section: Vectors & Quantum State Descriptors](/Master1.md)
+
 [Home](/README.md)
