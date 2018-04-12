@@ -102,4 +102,8 @@ The resulting figure from this code testing the Selection Rules for a Harmonic O
 
 Here we see that the only transition allowed for our HO follows the selection rule of $$DeltaV$$ = +/- 1. 
 
+[Next Section: Exploring the Morse Potential](/MorsePotential.md)
+
+[Previous Section: Quantum Selection Rules](/Selection_Rules.md)
+
 [Home](/README.md)
