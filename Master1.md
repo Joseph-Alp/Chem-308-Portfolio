@@ -36,3 +36,6 @@ Thus, several assumptions must be made inorder to interchange bases when taking 
 * Quantum superpositions can be described as vector sums of their constituent states
 * Measurements are associated with their linear operators (observables) on the space of quantum states
 * We normalize our wave functions in order to ensure a 100% possibility of determining the properties of our particle 
+
+[Next Section: Observable Operator Properties](/Master2.md)
+[Home](/README.md)
