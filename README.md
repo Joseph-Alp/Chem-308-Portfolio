@@ -51,3 +51,4 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Morse Potential](/code6.md)
 1. [Fourier Transformation](/code7.md)
 1. [Potental Energy Surfaces](/code8.md)
+1. [Lennard-Jones Potential](/LJcode.md)
