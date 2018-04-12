@@ -38,4 +38,5 @@ Thus, several assumptions must be made inorder to interchange bases when taking 
 * We normalize our wave functions in order to ensure a 100% possibility of determining the properties of our particle 
 
 [Next Section: Observable Operator Properties](/Master2.md)
+
 [Home](/README.md)
