@@ -65,6 +65,7 @@ between the nucleus and electron*
 Therefore, the potential energy will have the form seen in the well below:
 
 ![bondenergy](/bondenergy.GIF)
+(Source: goo.gl/chSqmi)
 
 For many chemistry majors, this is a familiar image. The large divet is the equilibrium bond radius, which has the lowest energy.
 This graph is created by fixing the nuclei at a certain, fixed radius while the electron is placed into the system 
