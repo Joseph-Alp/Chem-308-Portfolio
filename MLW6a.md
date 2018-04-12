@@ -33,7 +33,10 @@ size(srtvals);
 
 EtoX=srtvecs; % changes energy basis to position basis
 XtoE=inv(srtvecs); % changes position basis to energy basis
+```
+Here, we have modified our PsiE to incorporate energy states 1 and 2.
 
+```Matlab
 psiE=zeros(pts,1); % vector of all zeros
 psiE([1 2])=1; % change position 1,2 in vector to 1 (first two elements)
 psiX=EtoX*psiE;
