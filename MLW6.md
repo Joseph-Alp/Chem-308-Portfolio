@@ -48,7 +48,10 @@ psiX=EtoX*psiE;
 % shiftvecs=srtvecs+repvals;
     v=diag(srtvals);
     repvals=(ones(pts,1))*v';
-    
+```
+This segment of code runs the animations seen [here](/MasterTDSE.md)
+
+```Matlab    
     %New Content
 t=0; dt=0.1;
 for k=1:100
