@@ -43,4 +43,11 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Potential Energy Surfaces](/PES.md)  (Week 12) 
 
 ## All MatLab Codes
-1. [
+1. [Finalized TISE, PIB](/code1.md)
+1. [Expectation Value For TDSE, PIB (single state)](/code2.md)
+1. [Expectation Value For TDSE, PIB (multiple states)](/code3.md)
+1. [TDSE, PIB Gaussian](/code4.md)
+1. [Harmonic Oscillator Selection Rules](/code5.md)
+1. [Morse Potential](/code6.md)
+1. [Fourier Transformation](/code7.md)
+1. [Potental Energy Surfaces](/code8.md)
