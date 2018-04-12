@@ -100,7 +100,23 @@ The resulting figure from this code testing the Selection Rules for a Harmonic O
 
 ![HO](/HO.png)
 
-Here we see that the only transition allowed for our HO follows the selection rule of $$DeltaV$$ = +/- 1. 
+Here we see that the only transition allowed for our HO follows the selection rule of $$DeltaV$$ = +/- 1. This is incredible to calculate,
+as we can finally understand what populating MO's means on a quantum scale!
+
+This expounds the concept by applying an oscillating electric field (i.e. light) to a system, and the effect of this oscillating electric field can be visualized by observing how other states then become populated. If the energy of the photon is sufficient enough for the transition to occur, higher energy states can also be populated. 
+
+We can see this same phenomenon in another diagram:
+
+![Transitions](/transitions.gif)
+
+Q: What exactly is this animation showing us, and how does it relate to the one earlier in this section describing the transitions that are permissible?
+
+A: This animation shows the oscillation of our wave function, which we have already defined. The graph on the right displays the amount of contribution from each energy level; for this example there are five. When we start the animation, nearly all of the energy contribution stemmed from the ground state which is highlighted as the orange line. However, as the system continuously gains more energy from the oscillation electric field, more energy levels are then accessible, allowing there to be more contributions from more energy states.
+
+# Final Implications 
+
+This potential well can be applied using the TDSE in a similar way to PIB described in this entire chapter. Both the harmonic oscillator and the Morse Potential can be used to describe the transitions that are allowed in light of an oscilating electric field or without. In the next section is an image of the first 10 energy levels for the HO well. They are evenly spaced and there is more electron density towards the middle of the well than the sides. Accompanied with the image is the complete code with its breakdown.
+
 
 [Next Section: Exploring the Morse Potential](/MorsePotential.md)
 
