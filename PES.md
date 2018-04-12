@@ -27,7 +27,7 @@ In this equation, $\epsilon$ notates well depth, $\sigma$ represents the distanc
 
 This well represents the reaction of non-reactive species (i.e. noble gases). As the variable in the equation state, the potential takes into account the attractive and repulsive forces of the particles which can be seen below:
 
-(image here)
+![LJ](/LJ.png)
 
 # Tinkering With Early Surface Barrier
 
