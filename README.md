@@ -27,9 +27,7 @@ This portfolio is separated into two areas: The quantum mechanical principles ex
 1. [Code For Calculating The Expectation Value For TDSE PIB](/MLW6.md) (Week 6)
 1. [Code For Calculating The First Two Expectation Values For TDSE PIB](/MLW6a.md) (Week 7) 
     *    [Further modifying range of states explored](/MLW6c.md) 
-    *    Gaussian functions are often used to represent the probability density function of a normally distributed variable. We can apply 
-        a Gaussian bump(s) in MatLab to our TDSE PIB to observe the expectation value when we localize the particle to the right of the potential well.
-
+    
 # Perturbation Theory 
 1. [Introduction to Pertubation Theory](/IntroPerturbation.md) (Week 8) 
     *    [Re-Writing The TDSE To Consider Different Times](/MLW8.md) 
