@@ -1,7 +1,6 @@
+# PIB Using TISE
 
-
-
-Below is a continuation of the work from week 2, involving the PIB system. Only continuing to tweak the code and variables.
+Below is a continuation of the work from Week 2, involving the PIB system. Only continuing to tweak the code and variables.
 
 ```Matlab
 function PIB( n ) % n is the number of eigenvalues
@@ -23,8 +22,9 @@ c=-(hbar.^2)./(2.*m); % constants in kinetic energy; note periods apply to eleme
 % B2=diag(b,1); % 1 above diagnol
 % D=A+B+B2; % second derviative
 D=-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1); % second derivative matrix
-
-
+```
+This segment of code was introduced in order to set the constraints for the KE matrix. We also defined the PE matrix as well as the Hamiltonian operator which incorporates the KE and PE matricies.
+```Matlab
 % Kinetic energy matrix and constants
 T=c.*D; %See 1/25 notebook for notation details for reference 
 
@@ -56,4 +56,5 @@ srtvals=diag(dsort);
 
 end
 ```
+[Next Section: Finalized TISE, PIB Code](/MLW4.md) 
 [Home](/README.md)
