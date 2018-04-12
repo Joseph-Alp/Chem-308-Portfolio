@@ -14,7 +14,7 @@ An early barrier models the exothermic reaction taking place where the energy of
 
 # Late Energy Barrier 
 
-(late barrier image)
+![late barrier image](/LB.png)
 
 This graph displays an endothermic reaction, as noted by the energy of the reactants being lower than the energy of the products.  The reaction will only occur if enough kinetic energy is applied to the system to get it over the "saddle point." On the left, we see that the saddle point is shifted to the left. The right graph shows a "slice" of the surface to show the potential energy well of the products.
 
