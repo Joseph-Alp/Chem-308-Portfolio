@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # Potential Energy Surfaces 
 
 Because we are now able to observe bonding interactions on a quantum level, molecular dynamics can now be explored using quantum mechanics. We are now able to close out our semester long course by incorporating all we have learned into exploring molecular dynamics for a given particle(s) using the chemical equation: $$A + BC \rightarrow AB + C$$
