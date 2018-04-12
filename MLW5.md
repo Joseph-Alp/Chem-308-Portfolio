@@ -2,6 +2,8 @@
 
 # Time Dependent Schrodinger Equation
 
+Before continuing, [all graphs created from this section's code can be found here](/MasterTDSE.md) where they are also discussed in depth. This section is reserved for dissecting the MatLab code. 
+
 Now that we have a comfortable foundation for setting up the PIB paradigm, we can take this a step further and apply it for the time dependent schrodinger equation. We have already discussed that a stationary state is an energy eigenstate of the Hamiltonian operator. Stationary states have well-defined energy, as they describe a single energy state. There are only contributions from one energy state to the overall state. 
 
 We are already familiar with this portion of code. It was explained in the last section; it simply sets up our PIB. 
@@ -27,11 +29,20 @@ H=T+V;
 [srtvecs,srtvals]=eigsort(vecs,vals); % sorting eigenvalues in ascending order
 EtoX=srtvecs; % change from energy basis to position basis
 XtoE=inv(srtvecs); % change from position basis to energy basis
+```
+
+We know from the PIB for TISE, the wavefunction vector is defined in terms of position space. In order to switch between the position and energy bases, the code below can be used. To change into the energy basis, we can multiply EtoX by the vector of a specific state we desire in the energy basis. In the example below, we chose the vector to include only the first state. This will be modified in the following section when we choose to expand our scope of vectors.
+
+
+```Matlab
 psiE=zeros(pts,1); % vector of all zeros
 psiE([1])=1; % change position 1,2 in vector to 1
 psiX=EtoX*psiE;
+```
+For this segment of code, we are choosing how to see our graph after running the program. Tinkering with the section is not necessary at this stage in time. 
 
-%How to shift on displayng graph
+```Matlab
+%How to shift on displaying graph
 % sc=100; 
 % srtvecs=sc*srtvecs;
 % v=diag(srtvals); % vector of sorted eigenvalues
