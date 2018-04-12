@@ -7,7 +7,7 @@ Simulations based on quantum molecular dynamics make it possible to view experim
 
 # Early Energy Barrier
 
-(early barrier image)
+![early barrier image](/EB.png)
 
 An early barrier models the exothermic reaction taking place where the energy of the reactants are higher than the products. Despite being exothermic by its own nature, the reaction is not guarateed to happen. This is because a certain amount of energy is needed to get over the *"saddle point."* In this case, the saddle point is shifted to the right, as seen in the left graph. The right graph shows how the "slices" of the surface are the same as the potential well of binding for the products.
 
