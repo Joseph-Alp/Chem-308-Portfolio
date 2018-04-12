@@ -77,5 +77,7 @@ We are then able to visualize the first ten energy levels, where we can see the 
 
 Unlike the energy levels of the harmonic oscillator potential, which are evenly spaced by ħω, the Morse potential level spacing decreases as the energy approaches the dissociation energy. 
 
+[Previous Section: Testing Selection Rules for a Harmonic Oscillator](/HO.md)
+
 [Home](/README.md)
 
