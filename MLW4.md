@@ -1,5 +1,5 @@
 
-# Updated, Finalized Format For PIB 
+# Finalized Format For PIB 
 
 In order to have normalized data for our PIB, we set our constants equal to 1. We set the number of discretized spaces to 100 across all groups to ensure uniformity. Other than this brief modifications, the constant values are the same as in [week 2](/MLW2.md). 
 
@@ -81,4 +81,6 @@ srtvals=diag(dsort);
 
 end
 ```
+[Previous Section: Code For Investigating the PIB via TISE](/MLW3.md)
+
 [Home](/README.md)
