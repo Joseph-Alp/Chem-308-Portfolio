@@ -61,5 +61,8 @@ figure(1);plot(x,Vvec); % plot of potential energy vs discretized points
 
 end
 ```
+[Next Section: Code For Defining The KE Matrix For PIB](/MLW2.md)
+
+[Previous Section: Code For Investigating the Properties of PIB](/MLW1.md)
 
 [Home](/README.md)
