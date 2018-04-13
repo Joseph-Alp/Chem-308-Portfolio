@@ -1,7 +1,7 @@
 
 # Finalized Format For PIB 
 
-In order to have normalized data for our PIB, we set our constants equal to 1. We set the number of discretized spaces to 100 across all groups to ensure uniformity. Other than this brief modifications, the constant values are the same as in [week 2](/MLW2.md). 
+In order to have normalized data for our PIB, we set our constants equal to 1. We set the number of discretized spaces to 100 across all groups to ensure uniformity. Other than this brief modifications, the constant values are the same as in [Week 2](/MLW2.md). 
 
 ```Matlab
 function PIB( n ) % n is the number of eigenvalues
