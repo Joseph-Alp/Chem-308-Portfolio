@@ -6,17 +6,17 @@ do this, the steps to re-write the TDSE in light of this new inquiry are describ
 
 # The TDSE Difference Equation 
 
-We already know the TDSE to be: \begin{equation}\label{differential} \hat{H}\psi_{(x,t)}=i\hbar\frac{\partial\psi_{(x,t)}}{\partial t} \end{equation}.
+We already know the TDSE to be: \begin{equation}\label{differential} \hat{H}\psi_{(x,t)}=i\hbar\frac{\partial\psi_{(x,t)}}{\partial t} \end{equation}
 
 - This form of the TDSE includes the partial derivative $$\frac{\partial\psi_{(x,t)}}{\partial t}$$. 
 Here, the partial derivative describes the small changes in $$\psi_{(x,t)}$$ with respect to $$t$$. This partial derivative
 can be further altered by swapping the change in wave function with a delta as seen: 
 \begin{equation}\label{delta2} \hat{H}\psi_{(x,t)}=i\hbar\frac{\Delta\psi_{(x,t)}}{\Delta t} \end{equation}
 
-- The equation in the form does not completely get us to where we want, as there now exists a ratio of the wave function over the change in time.
-This can be remedied by taking it a step further:
+- The equation in this form does not completely get us to where we want, as there now exists a ratio of the wave function over a change in time.
+This can be remedied by taking a further step:
 
-Rewriting $$\Delta\psi_{(x,t)}$$ as the difference between two states yields: 
+Rewrite $$\Delta\psi_{(x,t)}$$ as the difference between two states yields: 
 \begin{equation}\label{delta3} \Delta\psi_{(x,t)}=\psi_{(x,t+\Delta t)}-\psi_{(x,t)} \end{equation}
 
 However, we want to be able to graph the wave function at a certain time! Leaving our wave function in this format is clunky, and 
