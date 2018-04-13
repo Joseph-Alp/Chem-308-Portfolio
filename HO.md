@@ -100,8 +100,7 @@ The resulting figure from this code testing the Selection Rules for a Harmonic O
 
 ![HO](/HO.png)
 
-Here we see that the only transition allowed for our HO follows the selection rule of $$DeltaV$$ = +/- 1. This is incredible to calculate,
-as we can finally understand what populating MO's means on a quantum scale!
+Here we see that the only transition allowed for our HO follows the selection rule of $$DeltaV$$ = +/- 1. This heat map shows the direct neighbor vibrational transitions that are allowed for the harmonic oscillator potential. This is incredible, as we can finally understand what populating MO's means on a quantum scale!
 
 This expounds the concept by applying an oscillating electric field (i.e. light) to a system, and the effect of this oscillating electric field can be visualized by observing how other states then become populated. If the energy of the photon is sufficient enough for the transition to occur, higher energy states can also be populated. 
 
