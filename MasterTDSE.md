@@ -37,7 +37,7 @@ To test these ideas, we looked at the animation for a specific state that was de
 
 We can dissect the animation into several section. The upper left diagram is the position basis of the wave function over a period of time, which takes the form of a sinusoid.
 
-If this was a stationary state, then the sinusoid function would rotate around the real and imaginary at a constant rate across the function. Had this been a non-stationary state, then the function rotate at different speeds. This is due to the fact that at different parts of the function, there are different *amounts of energy.*  
+If this was a stationary state, then the sinusoid function would rotate around the real and imaginary at a constant rate across the function. Had this been a non-stationary state, then the function rotate at different speeds. This is due to the fact that at different parts of the function, there are different *amounts of energy.* We can see this effect on the last animation of this section.
 
 The upper right diagram expresses the energy basis of the wave function overtime. If this is a stationary state, then there would only be one stick-and-ball rotating since there is only one energy present. If this is a non-stationary state, then there are multiple sticks-and-balls representing different energies, all rotating at different speeds. 
 
@@ -56,7 +56,7 @@ This same procedure can be seen with [Week 6](/MLW6.md) MatLab code, for the evo
 
 # Non-Stationary States
 
-Using the same [code](/MLW6c.md) as mentioned above, we can also observe our wave function for a particle in a non-stationary state (n = 1,2) where the expectation value is approximately 12.73 a.u.: 
+Using the same [code](/MLW6c.md) as mentioned above, we can also observe our wave function for a particle in a non-stationary state (n = 1,2) where the expectation value is approximately 12.73 a.u. We can observe the non-stationary behaviors we expected on our stick-and-ball approach mentioned earlier in this section. 
 
 ![nonstationary](/GIF3.gif)
 
