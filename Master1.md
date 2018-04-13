@@ -36,6 +36,15 @@ Thus, several assumptions must be made inorder to interchange bases when taking 
 * Measurements are associated with their linear operators (observables) on the space of quantum states
 * We normalize our wave functions in order to ensure a 100% possibility of determining the properties of our particle 
 
+# Matlab Cheat Sheet
+
+Throughout this porfolio will be Matlab codes that identify quantum operators, hamiltonians, and wave function. While these will be throughly displayed with direct explanations or comments denoted by "%" will explain their role within the code, here is a quick guide of the major commands:
+
+* Position operator: $\hat{x}=x$ 
+* Momentum operator: $\hat{p}=-i\hbar\frac{\partial}{\partial x}.$
+* Hamiltonian: "eigsort"
+* Kinetic Energy operator: Denoted by "T=...." proceeding code defining the 2nd derivative matrix  
+
 [Next Section: Observable Operator Properties](/Master2.md)
 
 [Home](/README.md)
