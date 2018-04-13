@@ -1,6 +1,6 @@
 # PIB Using TISE
 
-Below is a continuation of the work from Week 2, involving the PIB system. Only continuing to tweak the code and variables.
+Below is a continuation of the work from Week 2, involving the PIB system. Only continuing to tweak the code and variables. As no new fundamental information is covered in this section, please read the code comments notated by "%" for any details. 
 
 ```Matlab
 function PIB( n ) % n is the number of eigenvalues
