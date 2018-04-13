@@ -16,6 +16,7 @@ With these variables, we are able to Fourier transform from one to the other usi
 
 ![Fourier](/fourier.png) 
 
+(*Source: goo.gl/PkDzCC*)
 (Note that this is only in 1-dimension) 
 
 We are then able to use Euler's approximation $e^{ikx}=cos(kx)+isin(kx)$ show sinusoids as a wavenumber.
