@@ -9,7 +9,7 @@ Simulations based on quantum molecular dynamics make it possible to view experim
 
 # Early Energy Barrier
 
-![early barrier image](/Early Barrier.png)
+![early barrier image](/Early_Barrier.png)
 
 (*Source: MjC*)
 
