@@ -6,7 +6,7 @@ As the intended audience of this portfolio will ideally have a firm basis in lin
 
 This portfolio is separated into two areas: The quantum mechanical principles explained, and the MatLab code used to investigate their inqueries. 
 
-# Introduction Table of Contents.
+# Introduction Table of Contents
 
 1. [Vectors & Quantum State Descriptors](/Master1.md)
 1. [Observable Operator Properties](/Master2.md)
