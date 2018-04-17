@@ -51,7 +51,7 @@ We know this reaction actually takes place by the AB molecule separating entirel
 
 Just as we saw with the first case of the early surface barrier, the reaction does not take place as there is not enough energy to overcome the saddle point. 
 
-![image](/LateBarrier.png)
+![image](/LBNoRxn.gif)
 
 However, if we were to increase the energy such that it overcome the saddle point, then the reaction would take place.
 
